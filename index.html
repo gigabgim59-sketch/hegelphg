@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>헤겔 『정신현상학』 — 개념 도표</title>
+<meta name="description" content="헤겔 『정신현상학』(Phänomenologie des Geistes, 김준수 역) 개념 도표 — 의식·자기의식·이성·정신·종교·절대지. 정신의 자기 전개와 변증법. 조감도·관계도 8·개념 트리.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="헤겔 『정신현상학』 — 개념 도표">
+<meta property="og:description" content="의식 → 자기의식 → 이성 → 정신 → 종교 → 절대지. "절대자는 주체이다" — 정신의 자기 전개와 변증법.">
+<meta property="og:image" content="https://gigabgim59-sketch.github.io/hegelphg/hegel-phg-thumbnail.png?v=2">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="헤겔 『정신현상학』 — 의식의 자연사와 변증법">
+<meta property="og:url" content="https://gigabgim59-sketch.github.io/hegelphg/?v=2">
+<meta property="og:site_name" content="개념 도표">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="헤겔 『정신현상학』 — 개념 도표">
+<meta name="twitter:description" content="의식 · 자기의식 · 이성 · 정신 · 종교 · 절대지">
+<meta name="twitter:image" content="https://gigabgim59-sketch.github.io/hegelphg/hegel-phg-thumbnail.png?v=2">
+<style>
+  :root{--bg:#faf9f6;--ink:#1f1e1b;--sub:#46443f;--hint:#9a978e;--line2:#cfccc2;
+    --base:#eef1f4;--base-bd:#b9c2cc;
+    --dg:#f6ede2;--dg-bd:#d8be9a;    /* 절대자·정신 — 골드 */
+    --dz:#eef1e6;--dz-bd:#c2cca8;    /* 의식·감각·지각 — 녹 */
+    --ds:#efe9f3;--ds-bd:#c8b6d6;    /* 자기의식·이성 — 자주 */
+    --tm:#e8eef4;--tm-bd:#a8bcd0;    /* 정신·인륜성 — 청 */
+    --ng:#fbeee6;--ng-bd:#e8c5a0;    /* 소외·불행한 의식 — 연갈 */
+    --pos:#ede4ee;--pos-bd:#c9b0cc;  /* 종교·절대지 — 라벤더 */}
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.7;}
+  .wrap{max-width:880px;margin:0 auto;padding:52px 24px 90px;}
+  header.book{text-align:center;margin-bottom:34px;padding-bottom:26px;border-bottom:1px solid var(--line2);}
+  header.book h1{font-size:24px;font-weight:600;margin:0 0 8px;letter-spacing:1px;}
+  header.book .sub{font-size:14px;color:var(--sub);margin:0;}
+  nav.toc{margin:0 0 40px;padding:18px 22px;border:1px solid var(--line2);border-radius:10px;background:#fffdf8;}
+  nav.toc h2{font-size:15px;font-weight:600;margin:0 0 10px;text-align:center;letter-spacing:1px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;}
+  nav.toc a{display:block;text-decoration:none;color:var(--ink);padding:8px 10px;border-radius:7px;font-size:14px;}
+  nav.toc a:hover{background:#f1eee5;}
+  nav.toc .k{color:var(--hint);font-size:12px;margin-left:6px;}
+  section{margin:0 0 56px;scroll-margin-top:16px;}
+  h2.dp-h{font-size:19px;font-weight:600;margin:46px 0 14px;padding-bottom:9px;border-bottom:2px solid var(--line2);letter-spacing:.5px;}
+  h2.dp-h .sub{font-size:13px;font-weight:400;color:var(--hint);letter-spacing:0;}
+  h3.dp-h3{font-size:16px;font-weight:600;margin:36px 0 8px;color:#3a382f;}
+  .lead{font-size:14px;color:var(--sub);margin:0 0 14px;line-height:1.75;}
+  .note{font-size:12.5px;color:var(--hint);line-height:1.7;margin:10px 0 0;padding:10px 14px;background:#f4f2ec;border-radius:8px;}
+  .dp-svg{width:100%;height:auto;display:block;margin:6px 0 4px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:6px;}
+  .box{stroke-width:1;}
+  .b-base{fill:var(--base);stroke:var(--base-bd);}
+  .b-dg{fill:var(--dg);stroke:var(--dg-bd);}
+  .b-dz{fill:var(--dz);stroke:var(--dz-bd);}
+  .b-ds{fill:var(--ds);stroke:var(--ds-bd);}
+  .b-tm{fill:var(--tm);stroke:var(--tm-bd);}
+  .b-ng{fill:var(--ng);stroke:var(--ng-bd);}
+  .b-pos{fill:var(--pos);stroke:var(--pos-bd);}
+  .ln{stroke:#8a8578;stroke-width:1.2;fill:none;}
+  .ln-d{stroke:#8a8578;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  .t-tt{font-size:13px;font-weight:600;fill:#23221d;}
+  .t-tt2{font-size:12px;font-weight:600;fill:#23221d;}
+  .t-d{font-size:11.5px;fill:#46443f;}
+  .t-d2{font-size:10.5px;fill:#7a776e;}
+  .t-band{font-size:12.5px;font-weight:600;fill:#5a6b7a;}
+  .band-b{fill:#4a6a95;}
+  .band-o{fill:#a06f3a;}
+  .band-p{fill:#7a5a95;}
+  .band-r{fill:#9a5a5a;}
+  .band-g{fill:#5a7a5c;}
+  .t-flow{font-size:12px;font-weight:500;fill:#6a665c;}
+  .cat{margin:0 0 18px;border:1px solid var(--line2);border-radius:10px;overflow:hidden;background:#fff;}
+  .cat-head{display:flex;align-items:baseline;gap:10px;padding:10px 16px;background:#f3f1ea;border-bottom:1px solid var(--line2);}
+  .cat-no{font-size:12px;color:#fff;background:#8a8578;border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex:none;}
+  .cat-title{font-size:15px;font-weight:600;}
+  .cat-han{font-family:"Noto Serif KR","Batang",serif;font-size:13px;color:var(--hint);margin-left:auto;}
+  .subcat{padding:8px 16px 4px;}
+  .sub-t{font-size:13px;font-weight:600;color:#5a584e;margin:6px 0 6px;}
+  .terms{display:flex;flex-wrap:wrap;gap:7px;padding:6px 16px 14px;}
+  .subcat .terms{padding:0 0 10px;}
+  .term{font-size:13px;padding:4px 10px;background:#f6f4ee;border:1px solid #e6e2d8;border-radius:14px;white-space:nowrap;}
+  .term b{font-family:"Noto Serif KR","Batang",serif;font-weight:600;margin-right:3px;}
+  .backtop{text-align:right;margin:8px 0 0;font-size:12px;}
+  .backtop a{color:var(--hint);text-decoration:none;}
+  footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line2);text-align:center;font-size:12px;color:var(--hint);}
+  @media print{html{scroll-behavior:auto;}nav.toc a:hover{background:none;}.backtop{display:none;}.dp-svg{break-inside:avoid;}.cat{break-inside:avoid;}.def-tip{display:none !important;}.def-hint{display:none !important;}.svg-modal{display:none !important;}}
+  .term.has-def{cursor:pointer;transition:background .15s,border-color .15s;}
+  .term.has-def:hover{background:#ede7d3;border-color:#c9bf9e;}
+  .term.has-def:focus{outline:2px solid #b8a980;outline-offset:1px;}
+  .term.has-def.active{background:#e6dcb8;border-color:#b8a980;}
+  .def-tip{position:fixed;z-index:200;max-width:380px;min-width:240px;
+    padding:14px 32px 14px 16px;background:#fffdf6;border:1px solid #c9bf9e;
+    border-radius:10px;box-shadow:0 6px 22px rgba(60,50,20,.14);
+    font-size:13.5px;line-height:1.68;color:var(--ink);display:none;
+    overscroll-behavior:contain;}
+  .def-tip.on{display:block;}
+  .def-tip .dt-h{font-family:"Noto Serif KR","Batang",serif;font-size:17px;
+    font-weight:600;margin:0 0 2px;color:#2e2c26;letter-spacing:.5px;}
+  .def-tip .dt-k{font-size:12px;color:var(--hint);margin:0 0 8px;}
+  .def-tip .dt-b{margin:0;font-size:13.5px;line-height:1.7;}
+  .def-tip .dt-c{margin:8px 0 0;font-size:11.5px;color:var(--hint);}
+  .def-tip .dt-x{position:absolute;top:6px;right:8px;font-size:18px;
+    color:var(--hint);cursor:pointer;background:none;border:none;
+    padding:2px 8px;line-height:1;border-radius:4px;}
+  .def-tip .dt-x:hover{color:var(--ink);background:#f1eee5;}
+  .def-hint{margin:-6px 0 18px;padding:9px 14px;background:#f4f0e2;
+    border:1px dashed #d9cfa8;border-radius:8px;font-size:12.5px;
+    color:#6a614a;text-align:center;}
+  .dp-svg-outer{position:relative;}
+  .dp-svg-wrap{margin:6px 0 4px;}
+  .svg-modal{position:fixed;inset:0;z-index:500;
+    background:rgba(20,18,14,.90);display:none;
+    padding:56px 8px 44px;overflow:hidden;
+    overscroll-behavior:contain;}
+  .svg-modal.on{display:flex;flex-direction:column;}
+  .sm-close{position:fixed;top:12px;right:12px;
+    width:44px;height:44px;border-radius:50%;
+    background:rgba(255,253,246,.95);border:none;
+    font:700 24px/1 -apple-system,BlinkMacSystemFont,sans-serif;
+    color:#3a382f;cursor:pointer;z-index:501;
+    box-shadow:0 2px 10px rgba(0,0,0,.3);}
+  .sm-close:hover{background:#fff;}
+  .sm-body{flex:1;min-height:0;
+    display:flex;align-items:center;justify-content:center;
+    overflow:auto;-webkit-overflow-scrolling:touch;}
+  .sm-body > svg{display:block;
+    max-width:100%;max-height:100%;
+    width:auto;height:auto;
+    background:#fff;padding:6px;border-radius:6px;
+    box-shadow:0 4px 20px rgba(0,0,0,.4);}
+  .sm-hint{color:#d6cfbe;font-size:12px;
+    text-align:center;padding:10px 12px 0;
+    flex-shrink:0;letter-spacing:.3px;}
+  .sm-hint b{color:#f0e8d0;font-weight:600;}
+  @media (orientation:landscape){
+    .sm-hint{display:none;}
+    .svg-modal{padding:44px 8px 20px;}
+  }
+  @media (orientation:landscape) and (max-height:500px){
+    .dp-svg-outer::after{display:none;}
+    .dp-svg-outer{cursor:zoom-in;}
+  }
+  @media (max-width:640px){
+    .wrap{padding:24px 12px 60px;}
+    body{font-size:15px;line-height:1.72;}
+    header.book h1{font-size:20px;letter-spacing:.5px;}
+    header.book .sub{font-size:13px;}
+    nav.toc{padding:14px 14px;margin-bottom:30px;}
+    nav.toc h2{font-size:14px;}
+    nav.toc a{font-size:13.5px;padding:9px 8px;}
+    nav.toc .k{display:block;margin-left:0;margin-top:2px;font-size:11.5px;}
+    h2.dp-h{font-size:17.5px;margin:36px 0 12px;}
+    h2.dp-h .sub{display:block;margin-top:2px;}
+    h3.dp-h3{font-size:15px;margin:28px 0 8px;}
+    .lead{font-size:14px;line-height:1.72;}
+    .note{font-size:12.5px;padding:9px 12px;}
+    .cat{margin:0 0 14px;}
+    .cat-head{padding:10px 12px;gap:8px;}
+    .cat-han{font-size:12px;}
+    .cat-title{font-size:14.5px;}
+    .subcat{padding:6px 12px 2px;}
+    .sub-t{font-size:12.5px;}
+    .terms{padding:4px 12px 12px;gap:6px;}
+    .term{font-size:13px;padding:6px 11px;}
+    .def-hint{font-size:12.5px;padding:10px 12px;}
+    .dp-svg-outer{margin:8px 0 4px;cursor:zoom-in;}
+    .dp-svg-wrap{overflow:visible;margin:0;padding:0;}
+    .dp-svg{min-width:0;width:100%;max-width:100%;margin:0;
+      transition:box-shadow .15s;}
+    .dp-svg-outer:active .dp-svg{box-shadow:0 0 0 2px #b8a980;}
+    .dp-svg-outer::after{
+      content:'⤢  탭해서 크게';
+      position:absolute;top:10px;right:10px;
+      background:rgba(255,253,246,.95);
+      border:1px solid #d8c4a8;border-radius:14px;
+      padding:5px 11px 5px 10px;font-size:11.5px;font-weight:500;
+      color:#6a614a;pointer-events:none;z-index:2;
+      box-shadow:0 1px 4px rgba(60,50,20,.12);
+      letter-spacing:.2px;}
+    .def-tip{position:fixed;left:0 !important;right:0 !important;
+      bottom:0;top:auto !important;
+      max-width:none;min-width:0;width:100%;
+      border-radius:16px 16px 0 0;
+      max-height:72vh;overflow-y:auto;
+      padding:22px 50px 26px 18px;
+      box-shadow:0 -8px 28px rgba(60,50,20,.22);
+      border-left:none;border-right:none;border-bottom:none;
+      font-size:14.5px;line-height:1.72;}
+    .def-tip .dt-h{font-size:18px;}
+    .def-tip .dt-k{font-size:12.5px;}
+    .def-tip .dt-b{font-size:14.5px;line-height:1.75;}
+    .def-tip .dt-x{top:10px;right:12px;font-size:26px;padding:4px 12px;}
+    .term.has-def{-webkit-tap-highlight-color:rgba(184,169,128,.3);}
+  }
+</style></head><body><div class="wrap" id="top">
+<header class="book"><h1>헤겔 『정신현상학』 — 개념 도표</h1>
+<p class="sub">의식 → 자기의식 → 이성 → 정신 → 종교 → 절대지 (G.W.F. Hegel · 김준수 역, 1807)</p></header>
+<nav class="toc"><h2>도표 목차</h2><ol>
+<li><a href="#overview">Ⅰ. 전체 조감도<span class="k">— 의식의 자연사와 절대지로의 상승</span></a></li>
+<li><a href="#rel">Ⅱ. 핵심 주제별 관계도<span class="k">— 서문 · 의식 · 자기의식 · 이성 · 정신 · 종교 · 절대지</span></a></li>
+<li><a href="#tree">Ⅲ. 전체 개념 트리<span class="k">— 개념어 · 클릭 시 설명</span></a></li>
+</ol></nav>
+
+<section id="overview"><h2 class="dp-h">Ⅰ. 전체 조감도 <span class="sub">— 의식의 자연사와 절대지로의 상승</span></h2>
+<p class="lead">헤겔 『정신현상학』(1807)의 근본 명제는 하나다. <b>"절대자는 주체이다"</b>. 진리는 완성된 체계이며, 그 체계는 정신이 스스로 자기의 타자를 통해 자기로 돌아오는 <b>변증법적 자기 전개</b>다. 이 저작은 <b>의식의 자연사(Naturgeschichte des Bewusstseins)</b> — 감각적 확신에서 절대지에 이르는 의식의 형태들이 스스로의 경험(Erfahrung)을 통해 자기를 넘어서는 상승의 여정을 그린다.</p>
+<svg viewBox="0 0 760 640" class="dp-svg" role="img" aria-label="정신현상학 조감도">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker>
+  </defs>
+
+  <text x="380" y="28" text-anchor="middle" class="t-band band-o">『정신현상학』(1807) — "절대자는 주체이다"</text>
+  <rect x="140" y="42" width="480" height="52" rx="10" class="box b-dg"/>
+  <text x="380" y="66" text-anchor="middle" class="t-tt">정신의 자기 전개 · 의식의 자연사(Naturgeschichte des Bewusstseins)</text>
+  <text x="380" y="85" text-anchor="middle" class="t-d2">감각적 확신에서 절대지에 이르는 의식의 경험 여정</text>
+
+  <line x1="380" y1="98" x2="380" y2="120" class="ln"/>
+
+  <text x="380" y="134" text-anchor="middle" class="t-band">서문 · 서론 — 학문적 인식과 의식의 경험</text>
+  <g>
+   <rect x="60" y="150" width="320" height="60" rx="9" class="box b-base"/>
+   <text x="220" y="172" text-anchor="middle" class="t-tt2">서문 · 학문적 인식에 관하여</text>
+   <text x="220" y="192" text-anchor="middle" class="t-d2">진리는 체계 · "실체는 주체이다"</text>
+
+   <rect x="400" y="150" width="320" height="60" rx="9" class="box b-base"/>
+   <text x="560" y="172" text-anchor="middle" class="t-tt2">서론 · 의식의 경험의 학</text>
+   <text x="560" y="192" text-anchor="middle" class="t-d2">즉자·대자 · 규정된 부정의 방법</text>
+  </g>
+
+  <line x1="380" y1="220" x2="380" y2="242" class="ln" marker-end="url(#ar)"/>
+
+  <text x="380" y="256" text-anchor="middle" class="t-band band-p">(A) 의식 → (B) 자기의식 → (C) 이성 · 정신 · 종교 · 절대지</text>
+
+  <g>
+   <rect x="30" y="272" width="220" height="82" rx="10" class="box b-dz"/>
+   <text x="140" y="294" text-anchor="middle" class="t-tt">(A) 의식</text>
+   <text x="140" y="314" text-anchor="middle" class="t-d2">Ⅰ 감각적 확신 · '이것'</text>
+   <text x="140" y="330" text-anchor="middle" class="t-d2">Ⅱ 지각 · 사물과 착각</text>
+   <text x="140" y="346" text-anchor="middle" class="t-d2">Ⅲ 힘과 오성 · 초감각적 세계</text>
+
+   <rect x="270" y="272" width="220" height="82" rx="10" class="box b-ds"/>
+   <text x="380" y="294" text-anchor="middle" class="t-tt">(B) 자기의식</text>
+   <text x="380" y="314" text-anchor="middle" class="t-d2">Ⅳ 자기 확신의 진리</text>
+   <text x="380" y="330" text-anchor="middle" class="t-d2">A. 지배와 예속</text>
+   <text x="380" y="346" text-anchor="middle" class="t-d2">B. 스토아·회의·불행한 의식</text>
+
+   <rect x="510" y="272" width="220" height="82" rx="10" class="box b-ds"/>
+   <text x="620" y="294" text-anchor="middle" class="t-tt">(C)(AA) 이성</text>
+   <text x="620" y="314" text-anchor="middle" class="t-d2">Ⅴ 이성의 확신과 진리</text>
+   <text x="620" y="330" text-anchor="middle" class="t-d2">A. 관찰하는 이성</text>
+   <text x="620" y="346" text-anchor="middle" class="t-d2">B·C. 실현 · 즉자대자적 개체성</text>
+  </g>
+
+  <path d="M250,313 L270,313" class="ln" marker-end="url(#ar)"/>
+  <path d="M490,313 L510,313" class="ln" marker-end="url(#ar)"/>
+
+  <line x1="380" y1="356" x2="380" y2="378" class="ln" marker-end="url(#ar)"/>
+
+  <g>
+   <rect x="30" y="392" width="340" height="98" rx="10" class="box b-tm"/>
+   <text x="200" y="414" text-anchor="middle" class="t-tt">(C)(BB) 정신 — Ⅵ. 정신</text>
+   <text x="200" y="434" text-anchor="middle" class="t-d2">A. 참된 정신 · 인륜성 (그리스 폴리스)</text>
+   <text x="200" y="452" text-anchor="middle" class="t-d2">B. 소외된 정신 · 도야 · 계몽 · 절대적 자유</text>
+   <text x="200" y="470" text-anchor="middle" class="t-d2">C. 확신하는 정신 · 도덕성 · 양심</text>
+   <text x="200" y="486" text-anchor="middle" class="t-d2">§428–652 (실체=주체의 역사적 구현)</text>
+
+   <rect x="390" y="392" width="340" height="98" rx="10" class="box b-pos"/>
+   <text x="560" y="414" text-anchor="middle" class="t-tt">(C)(CC) 종교 — Ⅶ. 종교</text>
+   <text x="560" y="434" text-anchor="middle" class="t-d2">A. 자연 종교 (광원체 · 식물·동물 · 장인)</text>
+   <text x="560" y="452" text-anchor="middle" class="t-d2">B. 예술 종교 (그리스 · 서사 · 비극)</text>
+   <text x="560" y="470" text-anchor="middle" class="t-d2">C. 계시 종교 (기독교 · 성육신)</text>
+   <text x="560" y="486" text-anchor="middle" class="t-d2">§655–766 (표상에서 개념으로)</text>
+  </g>
+
+  <line x1="380" y1="492" x2="380" y2="514" class="ln" marker-end="url(#ar)"/>
+
+  <rect x="140" y="528" width="480" height="72" rx="10" class="box b-dg"/>
+  <text x="380" y="552" text-anchor="middle" class="t-tt">(C)(DD) 절대지 — Ⅷ. 절대지 (§767–)</text>
+  <text x="380" y="572" text-anchor="middle" class="t-d">정신이 개념의 형식으로 자기를 완전히 파악함</text>
+  <text x="380" y="590" text-anchor="middle" class="t-d2">= 정신현상학의 종결점 · 『논리학』으로의 이행</text>
+
+  <text x="380" y="622" text-anchor="middle" class="t-d2">이 상승의 원환이 곧 <tspan font-weight="700">"진리는 전체이다(Das Wahre ist das Ganze)"</tspan>의 실현이다.</text>
+</svg>
+<p class="note">※ 『정신현상학』은 1807년 밤베르크에서 완성·간행되었다. 원래는 「학문의 체계(System der Wissenschaft)」 제1부로 예고되었고, 뒤이어 제2부인 『논리학』이 계획되었다. 이 저작은 <b>의식의 형태들이 자기의 진리를 스스로 시험하며 다음 형태로 이행하는</b> 변증법의 최초의 완성태이며, 각 형태는 자기 안에서 자기와의 모순(진리 척도와 대상의 불일치)을 겪고 그 모순을 통해 새로운 형태로 <b>규정된 부정(bestimmte Negation)</b>을 통해 상승한다. 김준수 역본은 헤겔 원전의 촘촘한 개념어(즉자·대자·지양·정립·규정 등)와 문장 구조를 한국어에 정확히 이식한 대표적 역본이다.</p>
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+<section id="rel"><h2 class="dp-h">Ⅱ. 핵심 주제별 관계도 <span class="sub">— 서문 · 의식 · 자기의식 · 이성 · 정신 · 종교 · 절대지</span></h2>
+
+<h3 class="dp-h3">① 서문의 핵심 명제 — "절대자는 주체이다"</h3>
+<p class="lead">헤겔 사상 전체의 출발점이자 정점. 실체(Substanz)는 단지 있는 것이 아니라 <b>자기를 자기의 타자로 정립하고 그 타자에서 자기로 돌아오는 자기 운동</b>이며, 이 자기 관계가 곧 <b>주체(Subjekt)</b>다. 진리는 정지된 결과가 아니라 이 자기 매개 전체 — 곧 <b>체계(System)</b>다.</p>
+<svg viewBox="0 0 760 440" class="dp-svg" role="img" aria-label="절대자는 주체이다">
+  <defs><marker id="ar2" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="180" y="20" width="400" height="60" rx="10" class="box b-dg"/>
+  <text x="380" y="44" text-anchor="middle" class="t-tt">"Die Substanz ist wesentlich Subjekt"</text>
+  <text x="380" y="64" text-anchor="middle" class="t-d">실체는 본질적으로 주체이다</text>
+
+  <text x="380" y="106" text-anchor="middle" class="t-band band-r">셸링·스피노자 실체 형이상학의 극복</text>
+
+  <g>
+   <rect x="30" y="124" width="220" height="90" rx="9" class="box b-base"/>
+   <text x="140" y="146" text-anchor="middle" class="t-tt2">스피노자 실체</text>
+   <text x="140" y="164" text-anchor="middle" class="t-d">움직이지 않는 절대자</text>
+   <text x="140" y="182" text-anchor="middle" class="t-d2">Deus sive Natura</text>
+   <text x="140" y="200" text-anchor="middle" class="t-d2">양태의 무차별한 근거</text>
+
+   <rect x="270" y="124" width="220" height="90" rx="9" class="box b-base"/>
+   <text x="380" y="146" text-anchor="middle" class="t-tt2">셸링의 무차별</text>
+   <text x="380" y="164" text-anchor="middle" class="t-d">"모든 소가 검게 되는 밤"</text>
+   <text x="380" y="182" text-anchor="middle" class="t-d2">주관·객관의 무차별점</text>
+   <text x="380" y="200" text-anchor="middle" class="t-d2">차이를 지우는 절대자</text>
+
+   <rect x="510" y="124" width="220" height="90" rx="9" class="box b-dg"/>
+   <text x="620" y="146" text-anchor="middle" class="t-tt2">헤겔의 절대자</text>
+   <text x="620" y="164" text-anchor="middle" class="t-d">스스로 운동하는 개념</text>
+   <text x="620" y="182" text-anchor="middle" class="t-d2">타자로 나갔다 자기로 돌아옴</text>
+   <text x="620" y="200" text-anchor="middle" class="t-d2">= 주체의 구조</text>
+  </g>
+
+  <text x="380" y="244" text-anchor="middle" class="t-band band-p">주체의 구조 — 자기 매개(Selbstvermittlung)</text>
+
+  <g>
+   <rect x="30" y="262" width="220" height="80" rx="9" class="box b-dz"/>
+   <text x="140" y="284" text-anchor="middle" class="t-tt2">① 정립(Position)</text>
+   <text x="140" y="304" text-anchor="middle" class="t-d">자기 자신으로 있음</text>
+   <text x="140" y="322" text-anchor="middle" class="t-d2">즉자(An-sich)</text>
+
+   <rect x="270" y="262" width="220" height="80" rx="9" class="box b-ng"/>
+   <text x="380" y="284" text-anchor="middle" class="t-tt2">② 부정(Negation)</text>
+   <text x="380" y="304" text-anchor="middle" class="t-d">자기를 타자로 정립</text>
+   <text x="380" y="322" text-anchor="middle" class="t-d2">대자(Für-sich) · 자기 소외</text>
+
+   <rect x="510" y="262" width="220" height="80" rx="9" class="box b-pos"/>
+   <text x="620" y="284" text-anchor="middle" class="t-tt2">③ 부정의 부정</text>
+   <text x="620" y="304" text-anchor="middle" class="t-d">타자에서 자기로 돌아옴</text>
+   <text x="620" y="322" text-anchor="middle" class="t-d2">즉자대자 · 지양(Aufhebung)</text>
+  </g>
+
+  <path d="M250,302 L270,302" class="ln" marker-end="url(#ar2)"/>
+  <path d="M490,302 L510,302" class="ln" marker-end="url(#ar2)"/>
+
+  <text x="380" y="374" text-anchor="middle" class="t-flow">"진리는 전체이다(Das Wahre ist das Ganze)" — 이 원환 전체가 진리이며, 단순한 시작도 결과도 진리가 아니다.</text>
+  <text x="380" y="396" text-anchor="middle" class="t-d2">지양(Aufhebung)의 삼중 뜻 — 부정함 · 보존함 · 고양함</text>
+  <text x="380" y="418" text-anchor="middle" class="t-d2">이 자기 매개 구조가 의식·자기의식·이성·정신·종교·절대지의 전 여정을 관통한다.</text>
+</svg>
+
+<h3 class="dp-h3">② 서론 — 의식의 경험의 학과 규정된 부정</h3>
+<p class="lead">서론(Einleitung)은 정신현상학의 <b>방법</b>을 밝힌다. 의식은 자기의 진리 척도를 자기 안에 가지며(즉자), 자기의 대상(대자)에 대해 자기의 척도를 시험한다. 이 시험이 곧 <b>경험(Erfahrung)</b>이며, 척도와 대상이 어긋날 때 의식은 자기의 형태를 바꾸어 새로운 형태로 이행한다 — 이를 <b>규정된 부정(bestimmte Negation)</b>이라 한다.</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="의식의 경험의 학">
+  <defs><marker id="ar3" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="180" y="16" width="400" height="52" rx="10" class="box b-dg"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">"의식이 자기 자신에게 대해 수행하는 시험"</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">Prüfung des Bewusstseins an ihm selbst</text>
+
+  <text x="380" y="96" text-anchor="middle" class="t-band">의식의 이중 구조 — 즉자와 대자</text>
+
+  <g>
+   <rect x="60" y="112" width="320" height="90" rx="10" class="box b-dz"/>
+   <text x="220" y="134" text-anchor="middle" class="t-tt">즉자(An-sich) — 진리의 척도</text>
+   <text x="220" y="154" text-anchor="middle" class="t-d">의식이 "무엇이 참인가"에 대해 가진 <tspan font-weight="700">앎</tspan></text>
+   <text x="220" y="172" text-anchor="middle" class="t-d2">감각적 확신에서는 "이것"</text>
+   <text x="220" y="188" text-anchor="middle" class="t-d2">지각에서는 "사물"</text>
+
+   <rect x="400" y="112" width="320" height="90" rx="10" class="box b-ds"/>
+   <text x="560" y="134" text-anchor="middle" class="t-tt">대자(Für-sich) — 대상 자체</text>
+   <text x="560" y="154" text-anchor="middle" class="t-d">의식에게 <tspan font-weight="700">주어진</tspan> 것</text>
+   <text x="560" y="172" text-anchor="middle" class="t-d2">감각적 확신의 "지금·여기"</text>
+   <text x="560" y="188" text-anchor="middle" class="t-d2">지각의 "성질들의 총체"</text>
+  </g>
+
+  <text x="380" y="234" text-anchor="middle" class="t-band band-p">시험 — 척도와 대상의 어긋남</text>
+
+  <rect x="30" y="252" width="700" height="66" rx="10" class="box b-ng"/>
+  <text x="380" y="276" text-anchor="middle" class="t-tt">의식은 언제나 자기 안에서 자기와 어긋난다</text>
+  <text x="380" y="296" text-anchor="middle" class="t-d">척도(즉자)에 따라 시험하면 대상(대자)이 척도에 못 미치거나 넘친다</text>
+  <text x="380" y="312" text-anchor="middle" class="t-d2">이 어긋남이 "경험(Erfahrung)" — 의식이 자기의 형태를 바꾸는 계기</text>
+
+  <text x="380" y="344" text-anchor="middle" class="t-band band-b">규정된 부정(bestimmte Negation)</text>
+
+  <rect x="80" y="358" width="600" height="80" rx="10" class="box b-pos"/>
+  <text x="380" y="380" text-anchor="middle" class="t-tt">낡은 형태가 무너지되 그 결과가 새 형태의 내용이 됨</text>
+  <text x="380" y="400" text-anchor="middle" class="t-d">단순 부정(Nichts)이 아니라 <tspan font-weight="700">규정된</tspan> 부정 — 부정의 결과가 곧 새로운 긍정</text>
+  <text x="380" y="418" text-anchor="middle" class="t-d2">이 규정된 부정의 연쇄가 정신현상학의 <tspan font-weight="700">필연적 진행</tspan>을 이룬다.</text>
+  <text x="380" y="434" text-anchor="middle" class="t-d2">우리(Wir, 철학자)에게는 이 필연이 보이지만, 관찰되는 의식은 자기의 상승을 모른다.</text>
+</svg>
+
+<h3 class="dp-h3">③ (A) 의식 — 감각적 확신 · 지각 · 힘과 오성</h3>
+<p class="lead">저작의 첫 원환. 가장 소박한 의식 형태인 <b>감각적 확신</b>이 자기의 진리를 시험한다. "지금·여기·이것"의 직접성은 언어로 표현되는 순간 이미 보편이며, 이 실패를 통해 의식은 <b>지각</b>으로 이행한다. 지각의 "사물"이 성질들의 통일 문제로 붕괴하면, 의식은 <b>오성</b>에 도달해 감각계 배후의 <b>힘</b>과 <b>법칙</b>의 세계를 세운다. 그러나 오성이 그 초감각적 세계에서 결국 자기 자신을 발견함으로써 <b>자기의식</b>으로 넘어간다.</p>
+<svg viewBox="0 0 760 500" class="dp-svg" role="img" aria-label="의식의 세 단계">
+  <defs><marker id="ar4" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="200" y="16" width="360" height="52" rx="10" class="box b-dz"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">(A) 의식 — 대상은 나 바깥의 타자</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">진리는 대상 쪽에 있다고 여김</text>
+
+  <text x="380" y="96" text-anchor="middle" class="t-band">세 형태의 변증법적 연쇄</text>
+
+  <g>
+   <rect x="30" y="112" width="220" height="140" rx="10" class="box b-dz"/>
+   <text x="140" y="134" text-anchor="middle" class="t-tt">Ⅰ. 감각적 확신 (§93)</text>
+   <text x="140" y="152" text-anchor="middle" class="t-d">"이것"과 사념(Meinen)</text>
+   <text x="140" y="172" text-anchor="middle" class="t-d2">가장 풍부해 보이는 앎</text>
+   <text x="140" y="190" text-anchor="middle" class="t-d2">"지금"은 밤 → 다음 순간 낮</text>
+   <text x="140" y="208" text-anchor="middle" class="t-d2">"여기"는 나무 → 한 걸음 옆 집</text>
+   <text x="140" y="228" text-anchor="middle" class="t-d">"이것"은 이미 보편</text>
+   <text x="140" y="246" text-anchor="middle" class="t-d2">= 가장 빈약한 앎</text>
+
+   <rect x="270" y="112" width="220" height="140" rx="10" class="box b-dz"/>
+   <text x="380" y="134" text-anchor="middle" class="t-tt">Ⅱ. 지각 (§109)</text>
+   <text x="380" y="152" text-anchor="middle" class="t-d">사물과 착각(Täuschung)</text>
+   <text x="380" y="172" text-anchor="middle" class="t-d2">대상은 성질들의 통일</text>
+   <text x="380" y="190" text-anchor="middle" class="t-d2">소금 = 흰·짠·모난 = 하나</text>
+   <text x="380" y="208" text-anchor="middle" class="t-d2">일자와 다자의 모순</text>
+   <text x="380" y="228" text-anchor="middle" class="t-d">"사물"의 자체 분열</text>
+   <text x="380" y="246" text-anchor="middle" class="t-d2">→ 오성이 개입</text>
+
+   <rect x="510" y="112" width="220" height="140" rx="10" class="box b-dz"/>
+   <text x="620" y="134" text-anchor="middle" class="t-tt">Ⅲ. 힘과 오성 (§127)</text>
+   <text x="620" y="152" text-anchor="middle" class="t-d">현상과 초감각적 세계</text>
+   <text x="620" y="172" text-anchor="middle" class="t-d2">감각 배후의 힘(Kraft)</text>
+   <text x="620" y="190" text-anchor="middle" class="t-d2">법칙의 세계 · 도치된 세계</text>
+   <text x="620" y="208" text-anchor="middle" class="t-d2">뉴턴적 자연학의 전제</text>
+   <text x="620" y="228" text-anchor="middle" class="t-d">배후에는 결국 자기</text>
+   <text x="620" y="246" text-anchor="middle" class="t-d2">→ 자기의식으로 이행</text>
+  </g>
+
+  <path d="M250,180 L270,180" class="ln" marker-end="url(#ar4)"/>
+  <path d="M490,180 L510,180" class="ln" marker-end="url(#ar4)"/>
+
+  <text x="380" y="290" text-anchor="middle" class="t-band band-p">교훈 — 대상 쪽에 진리가 있다는 전제의 붕괴</text>
+
+  <rect x="80" y="308" width="600" height="66" rx="10" class="box b-base"/>
+  <text x="380" y="332" text-anchor="middle" class="t-tt2">"의식이 대상 바깥에 놓았던 것이 실은 의식 자신의 산물이다"</text>
+  <text x="380" y="352" text-anchor="middle" class="t-d">힘·법칙·초감각적 세계 = 오성이 놓은 것 → 의식은 자기를 발견</text>
+  <text x="380" y="368" text-anchor="middle" class="t-d2">이 발견 자체가 곧 자기의식의 성립</text>
+
+  <text x="380" y="402" text-anchor="middle" class="t-flow">감각적 확신 → 지각 → 오성 → 자기의식</text>
+  <text x="380" y="424" text-anchor="middle" class="t-d2">저자는 이 여정을 <tspan font-weight="700">필연적</tspan>이라 부른다 — 이후 형태들도 같은 방식으로 이어진다.</text>
+  <text x="380" y="446" text-anchor="middle" class="t-d2">§93–166 · 저작의 첫 세 장</text>
+</svg>
+
+<h3 class="dp-h3">④ (B) 자기의식 — 지배와 예속 · 자유의식의 세 형태</h3>
+<p class="lead">자기의식은 자기 자신을 대상으로 삼는다. 그러나 자기의식이 홀로 자기와 관계할 때는 자기 확실성이 공허하다 — 진리는 <b>타자로부터의 인정</b>을 통해서만 정립된다. 여기서 <b>지배와 예속</b>의 원초적 투쟁이 발생하고, 이어 <b>스토아주의 · 회의주의 · 불행한 의식</b>의 자유의식이 전개된다.</p>
+<svg viewBox="0 0 760 500" class="dp-svg" role="img" aria-label="자기의식">
+  <defs><marker id="ar5" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="200" y="16" width="360" height="52" rx="10" class="box b-ds"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">Ⅳ. 자기 확신의 진리 (§167)</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">"자기의식은 욕망 일반이다" · 진리는 자기 안에</text>
+
+  <text x="380" y="96" text-anchor="middle" class="t-band band-r">A. 지배와 예속 (§178) — 인정(Anerkennung) 투쟁</text>
+
+  <g>
+   <rect x="30" y="112" width="340" height="110" rx="10" class="box b-ng"/>
+   <text x="200" y="134" text-anchor="middle" class="t-tt">주인(Herr) — 지배자</text>
+   <text x="200" y="154" text-anchor="middle" class="t-d">죽음을 무릅쓴 승자</text>
+   <text x="200" y="172" text-anchor="middle" class="t-d2">노예를 매개로 사물을 향유</text>
+   <text x="200" y="190" text-anchor="middle" class="t-d">그러나 노예에게 의존</text>
+   <text x="200" y="208" text-anchor="middle" class="t-d2">= 예속된 의식으로부터 인정</text>
+
+   <rect x="390" y="112" width="340" height="110" rx="10" class="box b-pos"/>
+   <text x="560" y="134" text-anchor="middle" class="t-tt">노예(Knecht) — 예속자</text>
+   <text x="560" y="154" text-anchor="middle" class="t-d">죽음의 공포로 굴복</text>
+   <text x="560" y="172" text-anchor="middle" class="t-d2">노동으로 사물을 형성</text>
+   <text x="560" y="190" text-anchor="middle" class="t-d">노동에서 자기를 발견</text>
+   <text x="560" y="208" text-anchor="middle" class="t-d2">= 참된 자기의식의 자리</text>
+  </g>
+
+  <path d="M370,167 L390,167" class="ln" marker-end="url(#ar5)" stroke-dasharray="4 3"/>
+  <text x="380" y="243" text-anchor="middle" class="t-d2">역설 — 주인은 노예의 인정에 의존하고, 노예는 노동에서 참된 자기를 얻는다.</text>
+
+  <text x="380" y="276" text-anchor="middle" class="t-band band-p">B. 자기의식의 자유 (§192) — 세 형태</text>
+
+  <g>
+   <rect x="30" y="292" width="220" height="100" rx="10" class="box b-ds"/>
+   <text x="140" y="314" text-anchor="middle" class="t-tt">스토아주의 (§194)</text>
+   <text x="140" y="334" text-anchor="middle" class="t-d">"사유 안의 자유"</text>
+   <text x="140" y="352" text-anchor="middle" class="t-d2">외적 처지와 무관하게</text>
+   <text x="140" y="370" text-anchor="middle" class="t-d2">사유 안에서만 자유롭다</text>
+   <text x="140" y="386" text-anchor="middle" class="t-d2">→ 공허·추상적</text>
+
+   <rect x="270" y="292" width="220" height="100" rx="10" class="box b-ds"/>
+   <text x="380" y="314" text-anchor="middle" class="t-tt">회의주의 (§197)</text>
+   <text x="380" y="334" text-anchor="middle" class="t-d">모든 것의 부정</text>
+   <text x="380" y="352" text-anchor="middle" class="t-d2">타자를 부정하지만</text>
+   <text x="380" y="370" text-anchor="middle" class="t-d2">자기 자신에 대해서는 무력</text>
+   <text x="380" y="386" text-anchor="middle" class="t-d2">→ 자기 모순 · 이중적 의식</text>
+
+   <rect x="510" y="292" width="220" height="100" rx="10" class="box b-ng"/>
+   <text x="620" y="314" text-anchor="middle" class="t-tt">불행한 의식 (§201)</text>
+   <text x="620" y="334" text-anchor="middle" class="t-d">unglückliches Bewusstsein</text>
+   <text x="620" y="352" text-anchor="middle" class="t-d2">본질(피안·신)과</text>
+   <text x="620" y="370" text-anchor="middle" class="t-d2">자기(차안·유한자)의 분열</text>
+   <text x="620" y="386" text-anchor="middle" class="t-d2">→ 중세 종교의식</text>
+  </g>
+
+  <path d="M250,340 L270,340" class="ln" marker-end="url(#ar5)"/>
+  <path d="M490,340 L510,340" class="ln" marker-end="url(#ar5)"/>
+
+  <text x="380" y="422" text-anchor="middle" class="t-flow">불행한 의식이 자기의 본질을 스스로 안에 발견할 때 → <tspan font-weight="700">이성(Vernunft)</tspan>이 성립한다.</text>
+  <text x="380" y="444" text-anchor="middle" class="t-d2">"의식이 곧 실재이다"라는 이성의 확신이 다음 장의 출발점이다.</text>
+  <text x="380" y="466" text-anchor="middle" class="t-d2">§167–224 · 헤겔이 마르크스·라캉·코제브에게 물려준 원천</text>
+</svg>
+
+<h3 class="dp-h3">⑤ (C)(AA) 이성 — 관찰 · 실현 · 즉자대자적 개체성</h3>
+<p class="lead">이성은 "모든 실재는 나의 실재다(Ich bin Ich)"라는 확신 위에 선다. 그러나 이 확신은 아직 대상 세계와 매개되지 않은 추상적 확신이다. 이성은 (A) <b>관찰</b>을 통해 자연·자기의식·개체를 대상 인식하고, (B) 자기를 <b>실현</b>하려 하며, (C) 즉자대자적으로 <b>개체성</b>을 자각한다.</p>
+<svg viewBox="0 0 760 500" class="dp-svg" role="img" aria-label="이성의 세 국면">
+  <defs><marker id="ar6" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="200" y="16" width="360" height="52" rx="10" class="box b-ds"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">Ⅴ. 이성의 확신과 진리 (§225)</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">"이성은 모든 실재이다"라는 관념론적 확신</text>
+
+  <text x="380" y="96" text-anchor="middle" class="t-band">세 국면의 전개</text>
+
+  <g>
+   <rect x="30" y="112" width="220" height="150" rx="10" class="box b-dz"/>
+   <text x="140" y="134" text-anchor="middle" class="t-tt">A. 관찰하는 이성 (§237)</text>
+   <text x="140" y="154" text-anchor="middle" class="t-d">자연·자기의식·개체 관찰</text>
+   <text x="140" y="172" text-anchor="middle" class="t-d2">a) 자연 관찰 — 기술·법칙</text>
+   <text x="140" y="188" text-anchor="middle" class="t-d2">유기체 · 목적론 · 내면과 외면</text>
+   <text x="140" y="206" text-anchor="middle" class="t-d2">b) 논리·심리학적 법칙</text>
+   <text x="140" y="224" text-anchor="middle" class="t-d2">c) 관상학·골상학</text>
+   <text x="140" y="244" text-anchor="middle" class="t-d">"정신은 뼈다"의 사변 명제</text>
+   <text x="140" y="258" text-anchor="middle" class="t-d2">= 이성의 소박한 자기 오해</text>
+
+   <rect x="270" y="112" width="220" height="150" rx="10" class="box b-ds"/>
+   <text x="380" y="134" text-anchor="middle" class="t-tt">B. 실현하는 이성 (§338)</text>
+   <text x="380" y="154" text-anchor="middle" class="t-d">"자기 자신에 의한 실현"</text>
+   <text x="380" y="172" text-anchor="middle" class="t-d2">a) 쾌락과 필연성</text>
+   <text x="380" y="188" text-anchor="middle" class="t-d2">파우스트적 향유의 좌절</text>
+   <text x="380" y="206" text-anchor="middle" class="t-d2">b) 마음의 법칙과 광기</text>
+   <text x="380" y="224" text-anchor="middle" class="t-d2">낭만적 심정의 착란</text>
+   <text x="380" y="244" text-anchor="middle" class="t-d2">c) 덕과 세계 운행</text>
+   <text x="380" y="258" text-anchor="middle" class="t-d2">돈키호테적 덕의 파산</text>
+
+   <rect x="510" y="112" width="220" height="150" rx="10" class="box b-pos"/>
+   <text x="620" y="134" text-anchor="middle" class="t-tt">C. 즉자대자적 개체성 (§378)</text>
+   <text x="620" y="154" text-anchor="middle" class="t-d">"사태 자체(die Sache selbst)"</text>
+   <text x="620" y="172" text-anchor="middle" class="t-d2">a) 정신적 동물의 왕국</text>
+   <text x="620" y="190" text-anchor="middle" class="t-d2">개인의 작품과 기만</text>
+   <text x="620" y="208" text-anchor="middle" class="t-d2">b) 법칙 제정적 이성</text>
+   <text x="620" y="226" text-anchor="middle" class="t-d2">c) 법칙 검증적 이성</text>
+   <text x="620" y="244" text-anchor="middle" class="t-d">칸트 실천이성 비판</text>
+   <text x="620" y="258" text-anchor="middle" class="t-d2">= 개체 도덕의 파산</text>
+  </g>
+
+  <path d="M250,180 L270,180" class="ln" marker-end="url(#ar6)"/>
+  <path d="M490,180 L510,180" class="ln" marker-end="url(#ar6)"/>
+
+  <text x="380" y="302" text-anchor="middle" class="t-band band-p">이성의 한계 — 개체 이성은 실체적 세계 앞에 좌초한다</text>
+
+  <rect x="80" y="320" width="600" height="80" rx="10" class="box b-ng"/>
+  <text x="380" y="342" text-anchor="middle" class="t-tt">개체 이성 vs 이미 있는 인륜적 실체</text>
+  <text x="380" y="362" text-anchor="middle" class="t-d">개인이 세운 법칙·덕·작품은 이미 있는 <tspan font-weight="700">공동체적 실체</tspan> 앞에 실패한다</text>
+  <text x="380" y="380" text-anchor="middle" class="t-d2">이 실패에서 의식은 자기가 실은 <tspan font-weight="700">정신(Geist)</tspan>의 계기임을 자각한다.</text>
+  <text x="380" y="396" text-anchor="middle" class="t-d2">§225–421 · 근대 개인주의 · 계몽 도덕의 내재적 비판</text>
+
+  <text x="380" y="430" text-anchor="middle" class="t-flow">→ 이제 개체가 아니라 <tspan font-weight="700">인륜적 공동체</tspan>가 주인공으로 등장한다.</text>
+  <text x="380" y="452" text-anchor="middle" class="t-d2">"이성은 정신이 된다"(§438). 이것이 Ⅵ. 정신의 개시다.</text>
+  <text x="380" y="474" text-anchor="middle" class="t-d2">이성의 자기 확신은 실체와의 매개에서 참된 자기를 얻는다.</text>
+</svg>
+
+<h3 class="dp-h3">⑥ (C)(BB) 정신 — 인륜성 · 소외 · 도덕성</h3>
+<p class="lead">정신은 <b>"우리인 나, 나인 우리(Ich, das Wir, und Wir, das Ich ist)"</b>다. 개체와 공동체가 매개된 실체. 그 세 계기는 (A) <b>참된 정신 · 인륜성</b>(그리스 폴리스), (B) <b>자신으로부터 소외된 정신 · 도야</b>(근대 국가·계몽·프랑스 혁명), (C) <b>자기 자신을 확신하는 정신 · 도덕성</b>(칸트 도덕·양심)의 역사적·논리적 전개다.</p>
+<svg viewBox="0 0 760 520" class="dp-svg" role="img" aria-label="정신의 세 형태">
+  <defs><marker id="ar7" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="180" y="16" width="400" height="60" rx="10" class="box b-tm"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">Ⅵ. 정신 (§423) — "우리인 나, 나인 우리"</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">개체와 실체의 통일 · 역사 세계 안의 정신</text>
+
+  <text x="380" y="104" text-anchor="middle" class="t-band band-p">세 계기의 역사적 · 논리적 전개</text>
+
+  <g>
+   <rect x="30" y="120" width="220" height="150" rx="10" class="box b-tm"/>
+   <text x="140" y="142" text-anchor="middle" class="t-tt">A. 참된 정신 · 인륜성</text>
+   <text x="140" y="160" text-anchor="middle" class="t-d">고대 그리스 폴리스 (§428)</text>
+   <text x="140" y="178" text-anchor="middle" class="t-d2">a) 인간법·신법</text>
+   <text x="140" y="194" text-anchor="middle" class="t-d2">남성·여성 · 국가·가족</text>
+   <text x="140" y="212" text-anchor="middle" class="t-d2">b) 인륜적 행위</text>
+   <text x="140" y="228" text-anchor="middle" class="t-d2">안티고네의 비극 · 죄과·운명</text>
+   <text x="140" y="246" text-anchor="middle" class="t-d2">c) 법적 상태</text>
+   <text x="140" y="262" text-anchor="middle" class="t-d">→ 로마 제국의 인격체</text>
+
+   <rect x="270" y="120" width="220" height="150" rx="10" class="box b-ng"/>
+   <text x="380" y="142" text-anchor="middle" class="t-tt">B. 소외된 정신 · 도야</text>
+   <text x="380" y="160" text-anchor="middle" class="t-d">근대 세계 (§469)</text>
+   <text x="380" y="178" text-anchor="middle" class="t-d2">Ⅰ. 도야(Bildung)와 왕국</text>
+   <text x="380" y="194" text-anchor="middle" class="t-d2">국가 권력과 부 · 라모의 조카</text>
+   <text x="380" y="212" text-anchor="middle" class="t-d2">신앙과 순수한 통찰</text>
+   <text x="380" y="228" text-anchor="middle" class="t-d2">Ⅱ. 계몽 · 미신과의 투쟁</text>
+   <text x="380" y="246" text-anchor="middle" class="t-d2">Ⅲ. 절대적 자유와 경악</text>
+   <text x="380" y="262" text-anchor="middle" class="t-d">→ 프랑스 혁명 · 공포정치</text>
+
+   <rect x="510" y="120" width="220" height="150" rx="10" class="box b-pos"/>
+   <text x="620" y="142" text-anchor="middle" class="t-tt">C. 확신하는 정신 · 도덕성</text>
+   <text x="620" y="160" text-anchor="middle" class="t-d">칸트·낭만주의 (§581)</text>
+   <text x="620" y="178" text-anchor="middle" class="t-d2">a) 도덕적 세계관</text>
+   <text x="620" y="194" text-anchor="middle" class="t-d2">칸트 실천이성 · 요청</text>
+   <text x="620" y="212" text-anchor="middle" class="t-d2">b) 전위(轉位, Verstellung)</text>
+   <text x="620" y="228" text-anchor="middle" class="t-d2">도덕적 위선의 자기 폭로</text>
+   <text x="620" y="246" text-anchor="middle" class="t-d2">c) 양심·아름다운 영혼·용서</text>
+   <text x="620" y="262" text-anchor="middle" class="t-d">→ 종교로의 이행</text>
+  </g>
+
+  <path d="M250,190 L270,190" class="ln" marker-end="url(#ar7)"/>
+  <path d="M490,190 L510,190" class="ln" marker-end="url(#ar7)"/>
+
+  <text x="380" y="308" text-anchor="middle" class="t-band band-b">각 형태의 좌초와 다음 계기로의 이행</text>
+
+  <rect x="30" y="326" width="340" height="80" rx="10" class="box b-base"/>
+  <text x="200" y="348" text-anchor="middle" class="t-tt2">인륜성(그리스) → 개인이 실체와 통일</text>
+  <text x="200" y="368" text-anchor="middle" class="t-d">그러나 개인 자유의 결핍 · 자연적 인륜</text>
+  <text x="200" y="386" text-anchor="middle" class="t-d2">안티고네·크레온의 상호 파괴로 좌초</text>
+  <text x="200" y="400" text-anchor="middle" class="t-d2">→ 로마 제국의 추상적 인격체</text>
+
+  <rect x="390" y="326" width="340" height="80" rx="10" class="box b-base"/>
+  <text x="560" y="348" text-anchor="middle" class="t-tt2">도야(근대) → 자기 소외를 통한 형성</text>
+  <text x="560" y="368" text-anchor="middle" class="t-d">국가·부·언어를 통해 자기를 가공</text>
+  <text x="560" y="386" text-anchor="middle" class="t-d2">계몽 → 절대적 자유 → 공포정치</text>
+  <text x="560" y="400" text-anchor="middle" class="t-d2">→ 자기의 순수 부정성 자각</text>
+
+  <text x="380" y="440" text-anchor="middle" class="t-flow">양심의 마지막 형태 — <tspan font-weight="700">"악을 고백하고 용서로 화해"</tspan></text>
+  <text x="380" y="462" text-anchor="middle" class="t-d">이 화해에서 정신은 <tspan font-weight="700">종교</tspan>로 이행한다 — 정신이 자기 자신을 표상으로 대상화하는 형태</text>
+  <text x="380" y="482" text-anchor="middle" class="t-d2">§423–652 · 헤겔 역사철학의 원형</text>
+  <text x="380" y="502" text-anchor="middle" class="t-d2">"세계사는 자유의 진보다" 명제가 여기서 예비된다.</text>
+</svg>
+
+<h3 class="dp-h3">⑦ (C)(CC) 종교 — 자연 · 예술 · 계시 종교</h3>
+<p class="lead">종교는 정신이 자기 자신을 <b>표상(Vorstellung)</b>의 형식으로 자기 앞에 세우는 형태다. 개념(Begriff)이 아직 개념으로 파악되지 못한 채 이미지·이야기·의례로 나타난다. 세 단계는 (A) <b>자연 종교</b>(광원체·식물·동물·장인), (B) <b>예술 종교</b>(그리스·서사·비극·희극), (C) <b>계시 종교</b>(기독교의 성육신)로 전개된다.</p>
+<svg viewBox="0 0 760 500" class="dp-svg" role="img" aria-label="종교의 세 단계">
+  <defs><marker id="ar8" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="180" y="16" width="400" height="60" rx="10" class="box b-pos"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">Ⅶ. 종교 (§655) — 정신의 자기 표상</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d2">표상(Vorstellung) 형식으로 자기를 대상화</text>
+
+  <text x="380" y="104" text-anchor="middle" class="t-band">세 단계 — 자연 · 예술 · 계시</text>
+
+  <g>
+   <rect x="30" y="120" width="220" height="150" rx="10" class="box b-dz"/>
+   <text x="140" y="142" text-anchor="middle" class="t-tt">A. 자연 종교 (§665)</text>
+   <text x="140" y="160" text-anchor="middle" class="t-d">정신이 자연 형태에서 자기를 봄</text>
+   <text x="140" y="180" text-anchor="middle" class="t-d2">a) 광원체(Lichtwesen)</text>
+   <text x="140" y="196" text-anchor="middle" class="t-d2">조로아스터교 · 빛의 신</text>
+   <text x="140" y="214" text-anchor="middle" class="t-d2">b) 식물·동물</text>
+   <text x="140" y="230" text-anchor="middle" class="t-d2">힌두교 · 이집트 동물신</text>
+   <text x="140" y="248" text-anchor="middle" class="t-d2">c) 장인(匠人, Werkmeister)</text>
+   <text x="140" y="262" text-anchor="middle" class="t-d">→ 이집트 피라미드·스핑크스</text>
+
+   <rect x="270" y="120" width="220" height="150" rx="10" class="box b-ds"/>
+   <text x="380" y="142" text-anchor="middle" class="t-tt">B. 예술 종교 (§676)</text>
+   <text x="380" y="160" text-anchor="middle" class="t-d">그리스 세계</text>
+   <text x="380" y="180" text-anchor="middle" class="t-d2">a) 추상적 예술 작품</text>
+   <text x="380" y="196" text-anchor="middle" class="t-d2">신상(神像)·찬가</text>
+   <text x="380" y="214" text-anchor="middle" class="t-d2">b) 생동하는 예술 작품</text>
+   <text x="380" y="230" text-anchor="middle" class="t-d2">신비극·바쿠스 축제</text>
+   <text x="380" y="248" text-anchor="middle" class="t-d2">c) 정신적 예술 작품</text>
+   <text x="380" y="262" text-anchor="middle" class="t-d">서사시·비극·희극</text>
+
+   <rect x="510" y="120" width="220" height="150" rx="10" class="box b-pos"/>
+   <text x="620" y="142" text-anchor="middle" class="t-tt">C. 계시 종교 (§722)</text>
+   <text x="620" y="160" text-anchor="middle" class="t-d">기독교 · 절대 종교</text>
+   <text x="620" y="180" text-anchor="middle" class="t-d2">성육신(Menschwerdung)</text>
+   <text x="620" y="198" text-anchor="middle" class="t-d2">신이 인간이 됨</text>
+   <text x="620" y="216" text-anchor="middle" class="t-d2">그리스도의 죽음과 부활</text>
+   <text x="620" y="232" text-anchor="middle" class="t-d2">삼위일체 · 성령의 공동체</text>
+   <text x="620" y="250" text-anchor="middle" class="t-d">= 절대자의 자기 계시</text>
+   <text x="620" y="264" text-anchor="middle" class="t-d2">그러나 여전히 표상적</text>
+  </g>
+
+  <path d="M250,190 L270,190" class="ln" marker-end="url(#ar8)"/>
+  <path d="M490,190 L510,190" class="ln" marker-end="url(#ar8)"/>
+
+  <text x="380" y="308" text-anchor="middle" class="t-band band-b">종교의 형식적 한계 — 표상은 아직 개념이 아니다</text>
+
+  <rect x="80" y="326" width="600" height="88" rx="10" class="box b-base"/>
+  <text x="380" y="348" text-anchor="middle" class="t-tt">종교는 진리를 이미 가지고 있으나 표상의 형식 안에 담고 있다</text>
+  <text x="380" y="370" text-anchor="middle" class="t-d">"신은 인간이 되었다" · "성령이 공동체 안에 있다" — 진리이나 <tspan font-weight="700">이야기·이미지</tspan>로 있다</text>
+  <text x="380" y="388" text-anchor="middle" class="t-d">이 표상을 <tspan font-weight="700">개념(Begriff)</tspan>으로 파악할 때 절대지가 성립한다</text>
+  <text x="380" y="406" text-anchor="middle" class="t-d2">"정신의 본질은 인간이며, 인간의 본질은 정신이다" — 헤겔의 인간학적 기독교 해석</text>
+
+  <text x="380" y="440" text-anchor="middle" class="t-flow">계시 종교 → 절대지 — 표상에서 개념으로의 최종 이행</text>
+  <text x="380" y="462" text-anchor="middle" class="t-d2">종교의 진리 내용은 그대로 보존되나, 형식이 표상에서 개념으로 <tspan font-weight="700">지양</tspan>된다.</text>
+  <text x="380" y="484" text-anchor="middle" class="t-d2">§655–766 · 헤겔 종교철학의 정신현상학적 원형</text>
+</svg>
+
+<h3 class="dp-h3">⑧ (C)(DD) 절대지 — 정신현상학의 종결과 학문으로의 이행</h3>
+<p class="lead">절대지(das absolute Wissen)는 정신이 자기 자신을 <b>개념의 형식</b>에서 완전히 파악한 상태다. 그 내용은 이미 종교에서 다 주어졌으나 이제 표상이 아닌 개념으로 있다. 절대지의 성취가 곧 정신현상학의 종결이며, 여기서부터 순수 사유의 학인 <b>『논리학』</b>이 시작된다. 이 이행에서 "실체는 주체이다"라는 서문의 명제가 완전히 실현된다.</p>
+<svg viewBox="0 0 760 460" class="dp-svg" role="img" aria-label="절대지와 학문으로의 이행">
+  <defs><marker id="ar9" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#8a8578"/></marker></defs>
+
+  <rect x="140" y="16" width="480" height="66" rx="10" class="box b-dg"/>
+  <text x="380" y="40" text-anchor="middle" class="t-tt">Ⅷ. 절대지 (§767)</text>
+  <text x="380" y="60" text-anchor="middle" class="t-d">"자기 자신을 정신으로 아는 정신"</text>
+  <text x="380" y="78" text-anchor="middle" class="t-d2">der sich als Geist wissende Geist · 자기 인식에 이른 절대자</text>
+
+  <text x="380" y="112" text-anchor="middle" class="t-band">지금까지의 여정 전체가 통합·회고된다</text>
+
+  <g>
+   <rect x="30" y="128" width="340" height="120" rx="10" class="box b-ds"/>
+   <text x="200" y="150" text-anchor="middle" class="t-tt">지금까지의 형태들</text>
+   <text x="200" y="170" text-anchor="middle" class="t-d">모두 절대지의 계기로 회고됨</text>
+   <text x="200" y="188" text-anchor="middle" class="t-d2">감각적 확신 · 지각 · 오성</text>
+   <text x="200" y="204" text-anchor="middle" class="t-d2">자기의식 · 이성 · 정신 · 종교</text>
+   <text x="200" y="222" text-anchor="middle" class="t-d">각 형태는 이 마지막 지점에서</text>
+   <text x="200" y="238" text-anchor="middle" class="t-d2">자기의 필연적 자리를 얻는다</text>
+
+   <rect x="390" y="128" width="340" height="120" rx="10" class="box b-pos"/>
+   <text x="560" y="150" text-anchor="middle" class="t-tt">절대지의 성격</text>
+   <text x="560" y="170" text-anchor="middle" class="t-d">종교의 표상을 개념으로 지양</text>
+   <text x="560" y="188" text-anchor="middle" class="t-d2">타자성의 완전한 극복</text>
+   <text x="560" y="204" text-anchor="middle" class="t-d2">시간의 지양 — 개념은 무시간적</text>
+   <text x="560" y="222" text-anchor="middle" class="t-d">그러나 역사 속에서 성취됨</text>
+   <text x="560" y="238" text-anchor="middle" class="t-d2">= 서양 정신사 전체의 회고</text>
+  </g>
+
+  <line x1="380" y1="256" x2="380" y2="278" class="ln" marker-end="url(#ar9)"/>
+
+  <text x="380" y="292" text-anchor="middle" class="t-band band-b">『논리학』으로의 이행 — 학문 체계의 시작</text>
+
+  <rect x="80" y="308" width="600" height="90" rx="10" class="box b-dg"/>
+  <text x="380" y="330" text-anchor="middle" class="t-tt">정신현상학 = 학문 체계로 이르는 사다리</text>
+  <text x="380" y="350" text-anchor="middle" class="t-d">현상학은 "학문의 입문(Einleitung)"이자 "학문의 시작 자체"</text>
+  <text x="380" y="368" text-anchor="middle" class="t-d2">절대지가 성립하면 순수 개념의 자기 전개 = <tspan font-weight="700">『논리학』</tspan>이 시작된다</text>
+  <text x="380" y="388" text-anchor="middle" class="t-d2">이어 <tspan font-weight="700">『자연철학』</tspan>·<tspan font-weight="700">『정신철학』</tspan>(=엔치클로페디)이 체계를 완성한다</text>
+
+  <text x="380" y="424" text-anchor="middle" class="t-flow">"진리는 전체이다 · 절대자는 주체이다 · 실체=주체" — 서문의 명제가 여기서 완성된다.</text>
+  <text x="380" y="446" text-anchor="middle" class="t-d2">이 종결이 곧 헤겔 성숙기 체계(1817년 엔치클로페디 초판)의 개시점이다.</text>
+</svg>
+
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+
+<section id="tree"><h2 class="dp-h">Ⅲ. 전체 개념 트리 <span class="sub">— 개념어 · 클릭 시 뜻풀이</span></h2>
+<div class="def-hint">각 용어를 <b>클릭</b>하면 뜻풀이가 뜹니다. (ESC · 바깥 클릭 · × 로 닫기)</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">0</span><span class="cat-title">저작 일반</span><span class="cat-han">Phänomenologie des Geistes (1807)</span></div>
+<div class="terms"><span class="term"><b>PhG</b> 정신현상학</span><span class="term"><b>초판1807</b> 초판(1807 · 밤베르크)</span><span class="term"><b>학문체계</b> 「학문의 체계」 제1부로 예고</span><span class="term"><b>의식의경험의학</b> 「의식의 경험의 학」(원제)</span><span class="term"><b>김준수역</b> 김준수 역본</span><span class="term"><b>나폴레옹</b> 나폴레옹의 예나 입성</span><span class="term"><b>논리학예고</b> 『논리학』(1812–16)으로 이행</span><span class="term"><b>엔치클로페디</b> 『엔치클로페디』(1817)로 발전</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">1</span><span class="cat-title">서문 — 학문적 인식에 관하여</span><span class="cat-han">Vorrede</span></div>
+<div class="subcat"><div class="sub-t">근본 명제</div>
+<div class="terms"><span class="term"><b>절대자는주체</b> "절대자는 주체이다"</span><span class="term"><b>실체는주체</b> "실체는 본질적으로 주체이다"</span><span class="term"><b>진리는전체</b> "진리는 전체이다"</span><span class="term"><b>결과와과정</b> 결과와 그에 이르는 과정의 통일</span><span class="term"><b>자기매개</b> 자기 매개(Selbstvermittlung)</span></div>
+</div>
+<div class="subcat"><div class="sub-t">실체 형이상학 비판</div>
+<div class="terms"><span class="term"><b>스피노자실체</b> 스피노자의 실체</span><span class="term"><b>셸링무차별</b> 셸링의 무차별점 — "모든 소가 검은 밤"</span><span class="term"><b>직관비판</b> 직관주의 비판</span><span class="term"><b>형식주의비판</b> 형식주의에 대한 반론</span></div>
+</div>
+<div class="subcat"><div class="sub-t">학문·개념·방법</div>
+<div class="terms"><span class="term"><b>학문</b> 학문(Wissenschaft) 체계</span><span class="term"><b>개념</b> 개념(Begriff)</span><span class="term"><b>사변명제</b> 사변 명제(spekulativer Satz)</span><span class="term"><b>추론적사유</b> 추론적 사유(räsonierendes Denken) 비판</span><span class="term"><b>건전한상식</b> 건전한 상식·자연적 철학함 비판</span><span class="term"><b>도식화형식주의</b> 도식화하는 형식주의 비판</span><span class="term"><b>자연적의식</b> 자연적 의식</span><span class="term"><b>지의고양</b> 지(知)로의 고양</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">2</span><span class="cat-title">서론 — 의식의 경험의 학</span><span class="cat-han">Einleitung</span></div>
+<div class="terms"><span class="term"><b>서론</b> 서론(Einleitung)</span><span class="term"><b>의식</b> 의식(Bewusstsein)</span><span class="term"><b>즉자</b> 즉자(An-sich) — 진리 척도</span><span class="term"><b>대자</b> 대자(Für-sich) — 대상 자체</span><span class="term"><b>즉자대자</b> 즉자대자(An-und-für-sich)</span><span class="term"><b>경험</b> 경험(Erfahrung)</span><span class="term"><b>규정된부정</b> 규정된 부정(bestimmte Negation)</span><span class="term"><b>의식의형태</b> 의식의 형태(Gestalt des Bewusstseins)</span><span class="term"><b>자연사</b> 의식의 자연사(Naturgeschichte des Bewusstseins)</span><span class="term"><b>우리</b> 우리(Wir) — 관찰하는 철학자</span><span class="term"><b>현상학적방법</b> 현상학적 방법 · 필연적 진행</span><span class="term"><b>절망의길</b> "절망의 길(Weg der Verzweiflung)"</span><span class="term"><b>도야의여정</b> 도야의 여정(Bildungsweg)</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">3</span><span class="cat-title">(A) 의식</span><span class="cat-han">Bewusstsein (Ⅰ–Ⅲ)</span></div>
+<div class="subcat"><div class="sub-t">Ⅰ. 감각적 확신 (§93)</div>
+<div class="terms"><span class="term"><b>감각적확신</b> 감각적 확신(sinnliche Gewissheit)</span><span class="term"><b>이것</b> "이것(Dieses)"</span><span class="term"><b>사념</b> 사념(Meinen) — 표현 불가한 개별성</span><span class="term"><b>지금여기</b> "지금·여기"의 자기 지양</span><span class="term"><b>이것의보편성</b> "이것"의 언어적 보편성</span><span class="term"><b>직접성붕괴</b> 직접성의 자기 붕괴</span></div>
+</div>
+<div class="subcat"><div class="sub-t">Ⅱ. 지각 (§109)</div>
+<div class="terms"><span class="term"><b>지각</b> 지각(Wahrnehmung)</span><span class="term"><b>사물</b> 사물(Ding)</span><span class="term"><b>성질</b> 성질(Eigenschaft)</span><span class="term"><b>역시</b> "역시(auch)" — 성질들의 매개</span><span class="term"><b>일자와다자</b> 일자(Eins)와 다자(Vieles)의 모순</span><span class="term"><b>착각</b> 착각(Täuschung)</span><span class="term"><b>사물모순</b> 사물의 자체 분열</span></div>
+</div>
+<div class="subcat"><div class="sub-t">Ⅲ. 힘과 오성 (§127)</div>
+<div class="terms"><span class="term"><b>힘</b> 힘(Kraft)</span><span class="term"><b>오성</b> 오성(Verstand)</span><span class="term"><b>현상</b> 현상(Erscheinung)</span><span class="term"><b>초감각적세계</b> 초감각적 세계(übersinnliche Welt)</span><span class="term"><b>법칙</b> 법칙(Gesetz)</span><span class="term"><b>도치된세계</b> 도치된 세계(verkehrte Welt)</span><span class="term"><b>힘의놀이</b> 힘의 놀이(Spiel der Kräfte)</span><span class="term"><b>무한자</b> 무한자(Unendlichkeit)</span><span class="term"><b>자기의식으로의이행</b> 자기의식으로의 이행</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">4</span><span class="cat-title">(B) 자기의식</span><span class="cat-han">Selbstbewusstsein (Ⅳ)</span></div>
+<div class="subcat"><div class="sub-t">자기 확신의 진리 (§167)</div>
+<div class="terms"><span class="term"><b>자기의식</b> 자기의식(Selbstbewusstsein)</span><span class="term"><b>자기확신</b> 자기 확신의 진리</span><span class="term"><b>욕망</b> 욕망(Begierde)</span><span class="term"><b>생명</b> 생명(Leben)</span><span class="term"><b>유</b> 유(Gattung)</span><span class="term"><b>타자로서의자기</b> 타자로서의 자기 발견</span><span class="term"><b>인정</b> 인정(Anerkennung)</span><span class="term"><b>이중적자기의식</b> 이중적 자기의식</span></div>
+</div>
+<div class="subcat"><div class="sub-t">A. 자립성과 비자립성 · 지배와 예속 (§178)</div>
+<div class="terms"><span class="term"><b>지배예속</b> 지배와 예속(Herrschaft und Knechtschaft)</span><span class="term"><b>인정투쟁</b> 인정 투쟁</span><span class="term"><b>죽음을무릅쓰고</b> 죽음을 무릅쓴 투쟁</span><span class="term"><b>주인</b> 주인(Herr)</span><span class="term"><b>노예</b> 노예(Knecht)</span><span class="term"><b>사물의향유</b> 주인의 사물 향유</span><span class="term"><b>노동</b> 노동(Arbeit) — 노예의 자기 형성</span><span class="term"><b>죽음의공포</b> 죽음의 공포 · 절대적 주인</span><span class="term"><b>주인의역설</b> 주인의 역설 — 노예에게 의존</span><span class="term"><b>노예의역설</b> 노예의 역설 — 노동에서 자기 획득</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">5</span><span class="cat-title">(B) 자기의식의 자유 (§192)</span><span class="cat-han">Freiheit des Selbstbewusstseins</span></div>
+<div class="terms"><span class="term"><b>사유안의자유</b> 사유 안의 자유</span><span class="term"><b>스토아주의</b> 스토아주의(Stoizismus)</span><span class="term"><b>추상적자유</b> 스토아의 추상적 자유</span><span class="term"><b>회의주의</b> 회의주의(Skeptizismus)</span><span class="term"><b>이중적의식</b> 회의의 이중적 의식</span><span class="term"><b>불행한의식</b> 불행한 의식(unglückliches Bewusstsein)</span><span class="term"><b>본질과유한</b> 본질(피안)과 유한자(차안)의 분열</span><span class="term"><b>중세종교</b> 중세 기독교 종교의식</span><span class="term"><b>고행의식</b> 고행하는 의식(sich aufopferndes Bewusstsein)</span><span class="term"><b>이성으로의이행</b> 이성으로의 이행 — 자기 본질의 재발견</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">6</span><span class="cat-title">(C)(AA) 이성 — 관찰하는 이성 (§237)</span><span class="cat-han">Beobachtende Vernunft</span></div>
+<div class="subcat"><div class="sub-t">이성의 확신</div>
+<div class="terms"><span class="term"><b>이성</b> 이성(Vernunft)</span><span class="term"><b>이성의확신</b> 이성의 확신과 진리</span><span class="term"><b>모든실재</b> "이성은 모든 실재이다"</span><span class="term"><b>관념론</b> 관념론(Idealismus) 비판</span></div>
+</div>
+<div class="subcat"><div class="sub-t">a) 자연 관찰 (§240)</div>
+<div class="terms"><span class="term"><b>자연관찰</b> 자연의 관찰</span><span class="term"><b>기술일반</b> 기술(記述, Beschreibung)</span><span class="term"><b>징표</b> 징표(Merkmal)</span><span class="term"><b>법칙발견</b> 자연의 법칙 발견</span><span class="term"><b>유기체</b> 유기체(Organismus)</span><span class="term"><b>목적론</b> 목적론(Teleologie)</span><span class="term"><b>내면외면</b> 내면과 외면(Inneres·Äußeres)</span><span class="term"><b>유종개체</b> 유·종·개체</span></div>
+</div>
+<div class="subcat"><div class="sub-t">b) 자기의식의 관찰 (§291)</div>
+<div class="terms"><span class="term"><b>논리적법칙</b> 논리적 법칙</span><span class="term"><b>심리학적법칙</b> 심리학적 법칙</span><span class="term"><b>성격형성</b> 성격 형성의 관찰</span></div>
+</div>
+<div class="subcat"><div class="sub-t">c) 자기의식과 현실의 관계 (§299)</div>
+<div class="terms"><span class="term"><b>관상학</b> 관상학(Physiognomik)</span><span class="term"><b>골상학</b> 골상학(Schädellehre) — 갈</span><span class="term"><b>정신은뼈다</b> "정신의 존재는 뼈이다"</span><span class="term"><b>사변명제예</b> 사변 명제의 극한 예</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">7</span><span class="cat-title">(C)(AA) 이성 — 실현하는 이성 (§338)</span><span class="cat-han">Verwirklichung durch sich selbst</span></div>
+<div class="terms"><span class="term"><b>이성적자기의식실현</b> 자기 자신에 의한 이성적 자기의식의 실현</span><span class="term"><b>쾌락과필연성</b> 쾌락과 필연성(Lust und Notwendigkeit)</span><span class="term"><b>파우스트적</b> 파우스트적 향유의 좌초</span><span class="term"><b>마음의법칙</b> 마음의 법칙(Gesetz des Herzens)</span><span class="term"><b>자만의광기</b> 자만의 광기(Wahnsinn des Eigendünkels)</span><span class="term"><b>낭만적심정</b> 낭만적 심정의 착란</span><span class="term"><b>덕과세계운행</b> 덕(德)과 세계 운행(Weltlauf)</span><span class="term"><b>돈키호테적덕</b> 돈키호테적 덕의 파산</span><span class="term"><b>추상적덕</b> 추상적 덕 vs 현실 세계</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">8</span><span class="cat-title">(C)(AA) 즉자대자적으로 실재하는 개체성 (§378)</span><span class="cat-han">Individualität an und für sich</span></div>
+<div class="terms"><span class="term"><b>정신적동물의왕국</b> 정신적 동물의 왕국(geistiges Tierreich)</span><span class="term"><b>사태자체</b> "사태 자체(die Sache selbst)"</span><span class="term"><b>기만</b> 기만(Betrug)</span><span class="term"><b>정직한의식</b> 정직한 의식</span><span class="term"><b>법칙제정적이성</b> 법칙 제정적 이성</span><span class="term"><b>법칙검증적이성</b> 법칙 검증적 이성</span><span class="term"><b>칸트비판</b> 칸트 실천이성 비판</span><span class="term"><b>정언명령비판</b> 정언명령 형식성 비판</span><span class="term"><b>이성정신이행</b> 이성에서 정신으로의 이행</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">9</span><span class="cat-title">(C)(BB) 정신 — 인륜성 (§428)</span><span class="cat-han">Sittlichkeit · Ⅵ.A</span></div>
+<div class="subcat"><div class="sub-t">정신 일반</div>
+<div class="terms"><span class="term"><b>정신</b> 정신(Geist) — 우리인 나, 나인 우리</span><span class="term"><b>인륜적실체</b> 인륜적 실체(sittliche Substanz)</span><span class="term"><b>실체와주체</b> 실체와 주체의 통일</span></div>
+</div>
+<div class="subcat"><div class="sub-t">a) 인간법·신법 (§429)</div>
+<div class="terms"><span class="term"><b>참된정신</b> 참된 정신 · 인륜성</span><span class="term"><b>인륜성</b> 인륜성(Sittlichkeit)</span><span class="term"><b>인간법</b> 인간법(menschliches Gesetz) — 국가</span><span class="term"><b>신법</b> 신법(göttliches Gesetz) — 가족</span><span class="term"><b>남성여성</b> 남성과 여성의 대립</span><span class="term"><b>가족</b> 가족(Familie)</span><span class="term"><b>공동체폴리스</b> 공동체(Gemeinwesen)</span></div>
+</div>
+<div class="subcat"><div class="sub-t">b) 인륜적 행위 (§446)</div>
+<div class="terms"><span class="term"><b>인륜적행위</b> 인륜적 행위</span><span class="term"><b>안티고네</b> 안티고네(Antigone)</span><span class="term"><b>크레온</b> 크레온(Kreon)</span><span class="term"><b>죄과</b> 죄과(Schuld)</span><span class="term"><b>운명</b> 운명(Schicksal)</span><span class="term"><b>인륜성의파괴</b> 인륜성의 자기 파괴</span></div>
+</div>
+<div class="subcat"><div class="sub-t">c) 법적 상태 (§463)</div>
+<div class="terms"><span class="term"><b>법적상태</b> 법적 상태(Rechtszustand)</span><span class="term"><b>로마제국</b> 로마 제국</span><span class="term"><b>추상적인격</b> 추상적 인격(Person)</span><span class="term"><b>스토아이행</b> 스토아·회의로의 회귀</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">10</span><span class="cat-title">(C)(BB) 정신 — 자기 소외 · 도야 (§469)</span><span class="cat-han">Sich entfremdeter Geist · Bildung</span></div>
+<div class="subcat"><div class="sub-t">도야와 그 왕국</div>
+<div class="terms"><span class="term"><b>자기소외</b> 자기 소외(Selbstentfremdung)</span><span class="term"><b>도야</b> 도야(Bildung)</span><span class="term"><b>현실의왕국</b> 도야와 그 현실의 왕국</span><span class="term"><b>국가권력</b> 국가 권력(Staatsmacht)</span><span class="term"><b>부</b> 부(Reichtum)</span><span class="term"><b>고귀한의식</b> 고귀한 의식(edelmütiges Bewusstsein)</span><span class="term"><b>비열한의식</b> 비열한 의식(niederträchtiges Bewusstsein)</span><span class="term"><b>언어</b> 언어(Sprache) — 소외의 매개</span><span class="term"><b>아부</b> 아부(Schmeichelei)</span><span class="term"><b>라모의조카</b> 라모의 조카(디드로)</span><span class="term"><b>찢어진의식</b> 찢어진 의식(zerrissenes Bewusstsein)</span></div>
+</div>
+<div class="subcat"><div class="sub-t">신앙과 통찰 (§511)</div>
+<div class="terms"><span class="term"><b>신앙</b> 신앙(Glaube)</span><span class="term"><b>순수통찰</b> 순수한 통찰(reine Einsicht)</span><span class="term"><b>계몽의예비</b> 계몽의 예비 형태</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">11</span><span class="cat-title">(C)(BB) 계몽 · 절대적 자유 (§521)</span><span class="cat-han">Aufklärung · absolute Freiheit</span></div>
+<div class="subcat"><div class="sub-t">계몽</div>
+<div class="terms"><span class="term"><b>계몽</b> 계몽(Aufklärung)</span><span class="term"><b>미신투쟁</b> 미신에 대한 계몽의 투쟁</span><span class="term"><b>계몽의진리</b> 계몽의 진리</span><span class="term"><b>유용성</b> 유용성(Nützlichkeit)</span><span class="term"><b>이신론</b> 이신론 · 물질론</span><span class="term"><b>계몽의공허</b> 계몽의 공허 · 자기 소외의 완성</span></div>
+</div>
+<div class="subcat"><div class="sub-t">절대적 자유와 경악 (§567)</div>
+<div class="terms"><span class="term"><b>절대적자유</b> 절대적 자유</span><span class="term"><b>경악</b> 경악·공포(Schrecken)</span><span class="term"><b>프랑스혁명</b> 프랑스 혁명</span><span class="term"><b>공포정치</b> 공포정치(자코뱅)</span><span class="term"><b>보편의지</b> 루소적 보편의지 비판</span><span class="term"><b>무의미한죽음</b> 양배추의 목처럼 잘리는 죽음</span><span class="term"><b>도덕성이행</b> 도덕성으로의 이행</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">12</span><span class="cat-title">(C)(BB) 자기 확신의 정신 · 도덕성 (§581)</span><span class="cat-han">seiner selbst gewisser Geist · Moralität</span></div>
+<div class="subcat"><div class="sub-t">칸트 도덕성 비판</div>
+<div class="terms"><span class="term"><b>자기확신정신</b> 자기 자신을 확신하는 정신</span><span class="term"><b>도덕성</b> 도덕성(Moralität)</span><span class="term"><b>도덕적세계관</b> 도덕적 세계관(moralische Weltanschauung)</span><span class="term"><b>칸트요청</b> 칸트의 요청(Postulat) — 신·자유·불멸</span><span class="term"><b>도덕과행복</b> 도덕과 행복의 조화 요청</span><span class="term"><b>전위</b> 전위(轉位, Verstellung)</span><span class="term"><b>도덕적위선</b> 도덕적 위선의 자기 폭로</span></div>
+</div>
+<div class="subcat"><div class="sub-t">양심 · 아름다운 영혼 · 용서 (§612)</div>
+<div class="terms"><span class="term"><b>양심</b> 양심(Gewissen)</span><span class="term"><b>확신</b> 확신(Überzeugung) — 도덕적 행위의 근거</span><span class="term"><b>아름다운영혼</b> 아름다운 영혼(schöne Seele)</span><span class="term"><b>행위와판단</b> 행위하는 자와 판단하는 자</span><span class="term"><b>악</b> 악(Böse) 그리고 그것의 용서</span><span class="term"><b>용서</b> 용서(Verzeihen) — 정신적 화해</span><span class="term"><b>종교로의이행</b> 종교로의 이행</span></div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">13</span><span class="cat-title">(C)(CC) 종교 — 자연 종교 (§665)</span><span class="cat-han">Natürliche Religion</span></div>
+<div class="terms"><span class="term"><b>종교</b> 종교(Religion)</span><span class="term"><b>표상</b> 표상(Vorstellung) 형식</span><span class="term"><b>자연종교</b> 자연 종교(natürliche Religion)</span><span class="term"><b>광원체</b> 광원체(Lichtwesen) · 조로아스터교</span><span class="term"><b>식물동물종교</b> 식물·동물 종교(힌두교·이집트)</span><span class="term"><b>장인</b> 장인(匠人, Werkmeister)</span><span class="term"><b>이집트</b> 이집트 피라미드·스핑크스</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">14</span><span class="cat-title">(C)(CC) 예술 종교 (§676)</span><span class="cat-han">Kunstreligion — 그리스 세계</span></div>
+<div class="terms"><span class="term"><b>예술종교</b> 예술 종교(Kunstreligion)</span><span class="term"><b>그리스종교</b> 그리스 종교 세계</span><span class="term"><b>추상적예술작품</b> 추상적 예술 작품 — 신상·찬가·신탁</span><span class="term"><b>신상</b> 신상(神像)</span><span class="term"><b>찬가</b> 찬가(Hymne)</span><span class="term"><b>생동하는예술작품</b> 생동하는 예술 작품</span><span class="term"><b>바쿠스축제</b> 바쿠스 축제 · 신비극</span><span class="term"><b>정신적예술작품</b> 정신적 예술 작품</span><span class="term"><b>서사시</b> 서사시(Epos) — 호메로스</span><span class="term"><b>비극</b> 비극(Tragödie) — 아이스킬로스·소포클레스</span><span class="term"><b>희극</b> 희극(Komödie) — 아리스토파네스</span><span class="term"><b>행복한자기의식</b> "행복한 자기의식" — 신들의 죽음</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">15</span><span class="cat-title">(C)(CC) 계시 종교 (§722)</span><span class="cat-han">Offenbare Religion — 기독교</span></div>
+<div class="terms"><span class="term"><b>계시종교</b> 계시 종교(offenbare Religion)</span><span class="term"><b>절대종교</b> 절대 종교(기독교)</span><span class="term"><b>성육신</b> 성육신(Menschwerdung)</span><span class="term"><b>신인동형</b> 신인(神人)의 통일</span><span class="term"><b>그리스도</b> 그리스도(Christus)</span><span class="term"><b>죽음과부활</b> 그리스도의 죽음과 부활</span><span class="term"><b>삼위일체</b> 삼위일체(Dreieinigkeit)</span><span class="term"><b>성부성자성령</b> 성부·성자·성령</span><span class="term"><b>공동체</b> 공동체 안의 성령</span><span class="term"><b>악과화해</b> 악과 화해의 표상</span><span class="term"><b>표상의한계</b> 표상 형식의 한계</span><span class="term"><b>절대지로의이행</b> 절대지로의 이행</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">16</span><span class="cat-title">(C)(DD) 절대지 (§767)</span><span class="cat-han">Absolutes Wissen</span></div>
+<div class="terms"><span class="term"><b>절대지</b> 절대지(absolutes Wissen)</span><span class="term"><b>자기를아는정신</b> 자기 자신을 정신으로 아는 정신</span><span class="term"><b>개념형식</b> 개념(Begriff) 형식으로의 완성</span><span class="term"><b>타자성극복</b> 타자성의 완전한 극복</span><span class="term"><b>시간의지양</b> 시간의 지양</span><span class="term"><b>역사와개념</b> 역사와 개념의 통일</span><span class="term"><b>체계로의이행</b> 학문 체계로의 이행</span><span class="term"><b>논리학시작</b> 『논리학』의 시작</span><span class="term"><b>정신의골고다</b> 정신의 골고다(Schädelstätte des Geistes)</span><span class="term"><b>기억</b> 기억(Erinnerung) · 회고</span><span class="term"><b>황혼</b> 미네르바의 부엉이 (헤겔 훗날)</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">17</span><span class="cat-title">헤겔 변증법 · 방법론 핵심어</span><span class="cat-han">Dialektik · Methode</span></div>
+<div class="terms"><span class="term"><b>변증법</b> 변증법(Dialektik)</span><span class="term"><b>지양</b> 지양(Aufhebung) — 부정·보존·고양</span><span class="term"><b>정립반정립종합</b> 정립·반정립·종합 (통속적 도식)</span><span class="term"><b>모순</b> 모순(Widerspruch)</span><span class="term"><b>부정성</b> 부정성(Negativität)</span><span class="term"><b>내재적발전</b> 내재적 발전(immanente Entwicklung)</span><span class="term"><b>자기목적</b> 자기 목적(Selbstzweck)</span><span class="term"><b>보편특수개별</b> 보편·특수·개별</span><span class="term"><b>반성</b> 반성(Reflexion)</span><span class="term"><b>사변</b> 사변(Spekulation)</span><span class="term"><b>이성적인것</b> "이성적인 것은 현실적이다"</span><span class="term"><b>보편사</b> 세계사는 자유의 진보</span></div>
+</div>
+
+<div class="cat">
+<div class="cat-head"><span class="cat-no">18</span><span class="cat-title">역사적 배경 · 헤겔의 대화 상대</span><span class="cat-han">Kontext · Interlocutoren</span></div>
+<div class="terms"><span class="term"><b>칸트</b> 칸트(Immanuel Kant)</span><span class="term"><b>피히테</b> 피히테(J.G. Fichte)</span><span class="term"><b>셸링</b> 셸링(F.W.J. Schelling)</span><span class="term"><b>스피노자</b> 스피노자(B. Spinoza)</span><span class="term"><b>루소</b> 루소(J.-J. Rousseau)</span><span class="term"><b>소포클레스</b> 소포클레스 『안티고네』</span><span class="term"><b>디드로</b> 디드로 『라모의 조카』</span><span class="term"><b>프랑스혁명배경</b> 프랑스 혁명의 충격</span><span class="term"><b>예나</b> 예나 대학 시절</span><span class="term"><b>바이마르공국</b> 바이마르 · 밤베르크</span><span class="term"><b>괴테</b> 괴테와의 관계</span><span class="term"><b>횔덜린</b> 횔덜린 · 튀빙엔 신학교</span><span class="term"><b>마르크스수용</b> 마르크스의 수용</span><span class="term"><b>코제브</b> 코제브(Kojève) 강의</span><span class="term"><b>루카치</b> 루카치 『청년 헤겔』</span></div>
+</div>
+
+</section>
+<div class="backtop"><a href="#top">↑ 목차</a></div>
+
+<footer>헤겔 『정신현상학(Phänomenologie des Geistes)』 김준수 역 · 개념 도표 · 조감도 · 관계도 8 · 개념 트리 255</footer>
+</div>
+
+<div class="def-tip" id="defTip" role="dialog" aria-live="polite">
+  <button class="dt-x" id="defClose" aria-label="닫기">×</button>
+  <p class="dt-h" id="defHan"></p>
+  <p class="dt-k" id="defKor"></p>
+  <p class="dt-b" id="defBody"></p>
+</div>
+<div class="svg-modal" id="svgModal" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="sm-close" id="smClose" aria-label="닫기">×</button>
+  <div class="sm-body" id="smBody"></div>
+  <div class="sm-hint" id="smHint"><b>가로로 돌리면</b> 더 크게 보입니다 · 두 손가락으로 확대</div>
+</div>
+<script>
+(function(){
+  var G = {
+    'PhG': { han: 'Phänomenologie des Geistes', kor: '정신현상학', body: '1807년 밤베르크에서 완성되어 간행된 헤겔의 첫 완성 저작. 원래는 「학문의 체계(System der Wissenschaft)」 제1부로 예고되어 있었고, 그 뒤로 제2부인 『논리학』이 계획되었다. 나폴레옹의 예나 입성(1806년 10월 14일) 직전에 원고가 완성되어 헤겔이 직접 원고를 안전한 곳으로 옮겼다는 일화가 유명하다.' },
+    '초판1807': { han: 'Erstausgabe 1807', kor: '초판(1807 · 밤베르크)', body: '요제프 안톤 괴브하르트(Bamberg-Würzburg) 출판사 간행. 원제는 「의식의 경험의 학(Wissenschaft der Erfahrung des Bewusstseins)」으로 인쇄가 시작되었다가 도중에 「정신의 현상학의 학」으로 바뀌었고 최종적으로 「정신현상학」으로 확정되었다.' },
+    '학문체계': { han: 'System der Wissenschaft', kor: '「학문의 체계」 제1부', body: '1807년 표지에는 “학문의 체계 · 제1부 · 정신의 현상학”이라 쓰여 있다. 원래 계획대로라면 제2부 『논리학』, 이후 자연철학·정신철학이 이어져야 했으나, 헤겔은 뒷날 『엔치클로페디』(1817)에서 정신현상학을 정신철학 내부의 한 절로 축소해 편입한다.' },
+    '의식의경험의학': { han: 'Wissenschaft der Erfahrung des Bewusstseins', kor: '「의식의 경험의 학」', body: '초판 인쇄 도중까지 사용된 원제. 이 원제가 정신현상학의 방법을 가장 정확히 드러낸다 — 의식이 자기 자신에게 시험을 걸며 경험하는 필연적 여정 자체를 학문으로 세우는 작업.' },
+    '김준수역': { han: '김준수 역', kor: '김준수 역본', body: '한국어 대표 역본 중 하나. 김준수의 번역은 헤겔 원전의 정교한 개념어(즉자·대자·지양·정립·규정·매개 등)와 사변적 구문 구조를 한국어에 정확히 이식하려는 학술적 노력이 반영된 판본이다. 다른 한국어 역본으로 임석진 역이 오래 유통되었다.' },
+    '나폴레옹': { han: 'Napoléon', kor: '나폴레옹의 예나 입성', body: '1806년 10월 13일 헤겔은 예나에서 나폴레옹을 목격하고 편지에서 “말 위에 앉은 세계정신(Weltseele zu Pferd)”이라 불렀다. 다음 날 예나 전투가 벌어졌고, 헤겔은 정신현상학 원고를 지키기 위해 필사적으로 안전한 곳으로 옮겼다는 일화가 전해진다.' },
+    '논리학예고': { han: 'Wissenschaft der Logik', kor: '『논리학』으로 이행', body: '정신현상학의 절대지 종결이 곧 순수 사유의 학인 『논리학』의 시작이다. 『대논리학』은 1812–16년에 걸쳐 3권으로 간행되었다 — 존재론·본질론·개념론.' },
+    '엔치클로페디': { han: 'Enzyklopädie der philosophischen Wissenschaften', kor: '『엔치클로페디』(1817)로 발전', body: '뒷날 헤겔은 자신의 성숙 체계를 『철학적 학문의 엔치클로페디』로 완성한다 — 논리학·자연철학·정신철학의 삼분 구조. 여기서 정신현상학은 정신철학 안의 한 절(주관 정신)로 축소·편입된다.' },
+    '절대자는주체': { han: 'Das Absolute ist Subjekt', kor: '“절대자는 주체이다”', body: '헤겔 서문의 근본 명제. 스피노자·셸링의 절대자가 움직이지 않는 실체·무차별점이었다면, 헤겔의 절대자는 자기 자신을 자기의 타자로 정립하고 그 타자에서 자기로 돌아오는 자기 운동이다. 이 자기 관계 구조가 곧 주체(Subjekt)이며, 진리는 이 매개 전체다.' },
+    '실체는주체': { han: 'Die Substanz ist wesentlich Subjekt', kor: '“실체는 본질적으로 주체이다”', body: '스피노자의 “Deus sive natura”의 실체를 헤겔은 부정하지 않고 받아들이되, 실체가 정지된 것이 아니라 자기 안에서 스스로를 부정하고 매개하는 운동임을 밝힌다. 이 명제가 정신현상학·논리학 전체를 관통하는 근본 통찰이다.' },
+    '진리는전체': { han: 'Das Wahre ist das Ganze', kor: '“진리는 전체이다”', body: '진리는 어떤 단순한 시작이나 결과가 아니라 자기 매개를 통해 성숙에 이르는 전체 과정이다. 씨앗과 꽃과 열매가 서로를 부정하지만 동일한 하나의 유기적 생명의 계기이듯, 진리도 그 자기 전개 전체 안에서만 진리다.' },
+    '결과와과정': { han: 'Resultat und Prozess', kor: '결과와 과정의 통일', body: '진리는 결과이지만 과정 없는 결과는 죽은 것이다. 반대로 결과 없는 과정도 무의미하다. 헤겔은 이 둘의 통일 — 곧 자기를 자기로 만들어 가는 자기 매개 — 을 진리의 본성으로 규정한다.' },
+    '자기매개': { han: 'Selbstvermittlung', kor: '자기 매개', body: '주체가 자기 자신과 관계하는 방식이 곧 매개다. 직접적 자기 동일성이 아니라 타자를 거쳐 자기로 돌아옴이 매개의 구조이며, 이것이 절대자의 본성이다.' },
+    '스피노자실체': { han: 'Substanz bei Spinoza', kor: '스피노자의 실체', body: '“실체는 자기 자신의 원인(causa sui)이다” (에티카). 헤겔은 이를 받아들이나 이 실체가 자기 안에서 운동하지 않는 무차별한 근거로 남는 점을 비판한다. 실체가 스스로 주체로 화하지 않으면 양태의 세계는 실체에 대해 우연으로 남는다.' },
+    '셸링무차별': { han: 'Indifferenzpunkt', kor: '셸링의 무차별점', body: '헤겔이 셸링을 겨냥한 유명한 조롱 — “모든 소가 검게 보이는 밤(die Nacht, worin alle Kühe schwarz sind)”(서문). 셸링의 절대자에서는 주관·객관의 차이가 무차별하게 지워지는데, 이는 차이를 지우는 절대자이지 차이를 통해 자기를 매개하는 절대자가 아니다.' },
+    '직관비판': { han: 'Kritik der Anschauung', kor: '직관주의 비판', body: '헤겔은 절대자를 지적 직관·감정·계시로 파악하려는 낭만주의 시도를 비판한다. 진리는 개념(Begriff)에 이르러야 하며, 직관은 아직 개념이 아니다.' },
+    '형식주의비판': { han: 'Kritik des Formalismus', kor: '형식주의에 대한 반론', body: '셸링 학파의 “이 세계의 모든 것에 A=B와 B=A의 공식을 씌우는” 도식주의를 헤겔은 서문에서 신랄히 비판한다. 차이를 지우고 만사에 같은 공식을 덧씌우는 것은 사변이 아니라 죽은 형식주의다.' },
+    '학문': { han: 'Wissenschaft', kor: '학문 체계', body: '헤겔에게 학문은 개별 학과의 집합이 아니라 개념이 자기 자신을 스스로 전개하는 체계 전체다. 정신현상학은 이 체계로 이르는 사다리(Leiter)이며, 절대지에서 학문이 시작된다.' },
+    '개념': { han: 'Begriff', kor: '개념', body: '헤겔에게 개념은 형식논리학의 추상적 유개념이 아니라 살아 있는 자기 매개적 사유의 자기 활동이다. 개념은 자기 안에 자기의 부정과 그 지양을 포함하며 이 삼중 운동을 통해 스스로 규정된다.' },
+    '사변명제': { han: 'spekulativer Satz', kor: '사변 명제', body: '“신은 존재이다”·“실체는 주체이다”·“정신은 뼈이다”처럼 주어와 술어가 서로를 근본에서 규정하는 명제. 통상의 판단(주어에 술어를 붙임)과 달리 사변 명제에서는 주어와 술어가 서로 이행하며 하나의 개념을 이룬다.' },
+    '추론적사유': { han: 'räsonierendes Denken', kor: '추론적 사유 비판', body: '“이것도 있고 저것도 있다” 식으로 밖에서 대상을 왔다 갔다 판정하는 사유. 헤겔은 이를 사태의 자기 운동을 놓치는 죽은 사유로 규정하고, 참된 사유는 사태 자체의 내적 필연 안으로 들어가는 사변적 사유임을 강조한다.' },
+    '건전한상식': { han: 'gesunder Menschenverstand', kor: '건전한 상식 비판', body: '“천재성” 혹은 “직관”이라 자칭하며 개념적 노고 없이 곧장 절대자를 안다고 주장하는 태도. 헤겔은 이를 야콥 뵈메적·낭만주의적 열광으로 보고 배격한다 — “개념의 노동(Arbeit des Begriffs)”만이 학문에 이르게 한다.' },
+    '도식화형식주의': { han: 'schematischer Formalismus', kor: '도식화하는 형식주의', body: '자연·정신의 모든 대상을 미리 준비된 삼분법 도식(주관-객관-무차별, A-B-C 등)에 기계적으로 끼워 맞추는 태도. 헤겔은 서문에서 셸링 학파의 이런 도식화를 신랄히 비판하며 사태 자체가 내적 필연으로 자기 형식을 낳아야 함을 강조한다.' },
+    '자연적의식': { han: 'natürliches Bewusstsein', kor: '자연적 의식', body: '아직 학문에 이르지 못한, 대상을 자기 밖의 타자로 여기는 소박한 의식. 정신현상학은 이 자연적 의식이 자기 안에서 자기의 진리를 시험하며 학문에 이르는 여정이다.' },
+    '지의고양': { han: 'Erhebung zum Wissen', kor: '지(知)로의 고양', body: '자연적 의식이 자기의 형태들을 하나씩 넘어 절대지에 이르는 과정. 이것이 곧 정신현상학의 주제이며 “학문의 요소로의 이 상승은 아직 학문 그 자체가 아니다”(서문).' },
+    '서론': { han: 'Einleitung', kor: '서론', body: '서문(Vorrede)이 저작 전체의 목적·의미를 소급하여 서술한다면, 서론은 저작의 방법과 대상을 처음 열어 놓는다. 여기서 의식의 이중 구조(즉자·대자)와 규정된 부정의 원리, 그리고 저작이 “의식의 경험의 학”인 이유가 밝혀진다.' },
+    '의식': { han: 'Bewusstsein', kor: '의식', body: '헤겔에게 의식은 자기와 대상의 관계 구조 자체를 가리키는 넓은 뜻이다. (A) 의식이 대상을 자기 밖에 놓는 소박한 형태, (B) 대상을 자기로 발견하는 자기의식, (C) 이 둘의 매개인 이성·정신·종교·절대지가 모두 이 넓은 뜻의 “의식”의 형태들이다.' },
+    '즉자': { han: 'An-sich', kor: '즉자 — 진리 척도', body: '의식이 “무엇이 참인가”에 대해 자기 안에 가진 앎. 감각적 확신에서는 “이것”, 지각에서는 “사물”, 오성에서는 “법칙” 등이 그것이다. 의식은 이 즉자에 자기의 대상을 비추어 시험한다.' },
+    '대자': { han: 'Für-sich', kor: '대자 — 대상 자체', body: '의식에게 실제로 주어진 것, 시험되는 대상. 즉자(척도)와 대자(대상)의 일치 여부가 의식의 진리 여부를 결정한다.' },
+    '즉자대자': { han: 'An-und-für-sich', kor: '즉자대자', body: '즉자와 대자가 매개된 통일. 규정된 부정을 통해 자기와의 어긋남을 지양한 형태. 이것이 각 국면의 종결이자 다음 국면으로의 이행점이다.' },
+    '경험': { han: 'Erfahrung', kor: '경험', body: '헤겔에서 경험은 통상의 뜻(감각 자료의 수집)이 아니라 의식이 자기 안에서 자기와의 어긋남을 겪고 그 어긋남을 통해 자기의 형태를 바꾸는 사건이다. “그러므로 의식이 자기 자신에게 대해 수행하는 변증법 운동을 경험이라 부른다”(서론).' },
+    '규정된부정': { han: 'bestimmte Negation', kor: '규정된 부정', body: '한 형태가 무너지되 단순 무(無)로 사라지는 것이 아니라 그 부정의 결과가 새로운 형태의 내용이 됨. 이것이 정신현상학의 진행이 자의적 나열이 아니라 필연적 발전인 이유다.' },
+    '의식의형태': { han: 'Gestalt des Bewusstseins', kor: '의식의 형태', body: '감각적 확신·지각·오성·자기의식·이성·정신·종교 등 저작에서 다뤄지는 각 단계. 이들은 개별적 사유 유형이 아니라 서로가 서로를 매개하며 필연적으로 이어지는 하나의 여정이다.' },
+    '자연사': { han: 'Naturgeschichte des Bewusstseins', kor: '의식의 자연사', body: '정신현상학이 그리는 것은 개별 인식자의 심리적 성숙이 아니라 의식이라는 것 그 자체가 필연적으로 통과해야 하는 형태들의 연쇄다. 헤겔은 이를 자연사에 빗대 부른다.' },
+    '우리': { han: 'Wir', kor: '우리 — 관찰하는 철학자', body: '관찰되는 의식은 자기 상승의 필연을 모르지만, “우리”(정신현상학을 서술하는 철학자)는 그것을 안다. 이 “우리”와 “관찰되는 의식”의 시선 차이가 정신현상학 서술의 이중 구조다.' },
+    '현상학적방법': { han: 'phänomenologische Methode', kor: '현상학적 방법', body: '헤겔의 현상학은 후설과 다르다 — 각 의식 형태가 자기 안에서 스스로 시험을 걸고 자기의 어긋남을 통해 다음 형태로 이행하는 필연적 진행 자체를 학문으로 서술함이다.' },
+    '절망의길': { han: 'Weg der Verzweiflung', kor: '“절망의 길”', body: '서론의 유명한 표현. 의식이 자기의 소박한 확신 하나하나를 잃어 가며 절대지에 이르는 여정. 각 상실이 곧 다음 형태의 획득이다.' },
+    '도야의여정': { han: 'Bildungsweg', kor: '도야의 여정', body: '정신현상학은 개인의 성숙 경로이면서 동시에 인류의 정신사 전체의 축약이다. 개인이 정신현상학의 여정을 따라감으로써 인류가 겪은 정신적 도야를 자기의 것으로 재현한다.' },
+    '감각적확신': { han: 'sinnliche Gewissheit', kor: '감각적 확신', body: '저작의 첫 형태. 가장 풍부해 보이는 앎 — “지금 내 앞에 이것이 있다”. 그러나 이 “이것·지금·여기”는 언어로 표현되는 순간 이미 보편이며, “지금은 밤이다”라고 써 놓으면 낮에는 거짓이 되는 자기 지양적 구조를 드러낸다. 결과 — 가장 풍부해 보이는 앎이 실은 가장 빈약한 앎이다.' },
+    '이것': { han: 'Dieses', kor: '“이것”', body: '감각적 확신이 붙잡으려는 대상. 그러나 “이것”이라는 낱말 자체가 무엇에나 붙을 수 있는 보편이라는 것이 감각적 확신의 자기 파괴 지점이다.' },
+    '사념': { han: 'Meinen', kor: '사념', body: '언어로 표현되지 않는, 각자의 사적 지시(私念). 감각적 확신은 자기의 진리를 “말할 수 없는” 것에 두려 하지만, 말할 수 없는 것은 결국 있는지조차 확인할 수 없다는 자기 모순에 빠진다.' },
+    '지금여기': { han: 'Jetzt und Hier', kor: '“지금·여기”의 자기 지양', body: '“지금은 밤이다”라고 종이에 적어 둔 뒤 정오에 다시 읽어 보면 그 명제가 거짓이 되어 있다. “지금”은 어떤 특정 시간이 아니라 “이 특정한 시간이 아닌 것도 지금이 될 수 있는” 보편이다.' },
+    '이것의보편성': { han: 'Allgemeinheit des Dieses', kor: '“이것”의 보편성', body: '개별적 지시로 여겨진 “이것”이 실은 어떤 개별에도 붙을 수 있는 보편임의 폭로. 감각적 확신은 자기의 개별적 진리 주장을 스스로 파괴한다.' },
+    '직접성붕괴': { han: 'Zusammenbruch der Unmittelbarkeit', kor: '직접성의 자기 붕괴', body: '감각적 확신이 자기의 소박한 직접성 주장 안에서 이미 매개(언어·보편·시간의 통과)를 함축하고 있음을 스스로 드러냄. 이 붕괴가 지각으로의 이행을 강제한다.' },
+    '지각': { han: 'Wahrnehmung', kor: '지각', body: '두 번째 의식 형태. 대상은 이제 “이것”이 아니라 “사물(Ding)”이며, 그 사물은 여러 성질의 통일이다. 소금은 하얗고, 짜고, 모난, 그러나 <하나의> 소금 — 이 “하나와 여럿”의 모순이 지각의 자기 파괴 원리다.' },
+    '사물': { han: 'Ding', kor: '사물', body: '지각의 대상. 여러 성질(색·맛·형태)의 통일이자 담지자. 그러나 성질들이 서로 무관하기도 하고 하나이기도 한 이중적 존재로 붕괴한다.' },
+    '성질': { han: 'Eigenschaft', kor: '성질', body: '사물이 가진 규정. 그러나 성질들은 서로 배제하면서도(색이 나뉘면 하나가 아님) 통일되어야 한다(하나의 사물이니까). 이 모순이 사물 개념을 붕괴시킨다.' },
+    '역시': { han: 'Auch', kor: '“역시” — 성질들의 매개', body: '“흰 소금이자 짜기도 하고 모나기도 하다”의 “이자·기도”가 문법적으로는 성질들을 연결하지만 존재론적으로는 성질들을 서로 무관한 것으로 나열한다. 이 형식이 지각의 근본 결함이다.' },
+    '일자와다자': { han: 'Eins und Vieles', kor: '일자와 다자의 모순', body: '사물은 하나(일자)이면서 성질들의 다수(다자)여야 한다는 지각의 이중 요구. 지각은 이 모순을 매개할 수 없어 착각(Täuschung)에 빠진다.' },
+    '착각': { han: 'Täuschung', kor: '착각', body: '지각적 의식이 자기의 모순을 대상 쪽의 결함으로 돌리며 자기를 방어하는 방식. 그러나 결국 이 착각도 유지될 수 없어 오성으로 이행한다.' },
+    '사물모순': { han: 'Widerspruch des Dings', kor: '사물의 자체 분열', body: '사물이 자기 안에서 “일자이면서 다자”라는 모순을 담지 못하고 자기 붕괴함. 이 분열이 오성 단계에서 “감각계 배후의 힘”으로 재구성된다.' },
+    '힘': { han: 'Kraft', kor: '힘', body: '오성 단계의 첫 개념. 감각적 사물 배후에 “힘”이 있고 그 힘이 감각적 현상을 낳는다는 사고. 뉴턴적 자연과학의 세계상이 이 형태에 속한다.' },
+    '오성': { han: 'Verstand', kor: '오성', body: '헤겔에서 오성은 이성보다 하위의 사유 능력. 대상을 고정된 규정 아래 분리하고 법칙을 세우는 사고. 그러나 오성의 세계상은 자기 안에서 모순에 부딪히며, 이 모순을 담지 못하는 것이 오성의 한계다.' },
+    '현상': { han: 'Erscheinung', kor: '현상', body: '감각적으로 나타나는 세계. 오성은 이 현상 배후에 “참된 세계”(초감각적 세계·법칙의 세계)를 세워 놓는다.' },
+    '초감각적세계': { han: 'übersinnliche Welt', kor: '초감각적 세계', body: '오성이 감각계 배후에 세우는 안정된 법칙의 세계. 그러나 이 세계도 결국 자기 안에서 자기와 어긋난다.' },
+    '법칙': { han: 'Gesetz', kor: '법칙', body: '오성이 발견하는 관계 규정. 그러나 법칙은 힘의 자기 관계로 환원되고, 힘의 자기 관계는 결국 개념의 자기 매개 — 곧 자기의식이 된다.' },
+    '도치된세계': { han: 'verkehrte Welt', kor: '도치된 세계', body: '오성이 세운 초감각적 세계가 자기의 대립을 자기 안에 담는 순간, 모든 규정이 자기 반대로 도치된다 — 위가 아래로, 옳은 것이 그른 것으로. 헤겔 정신현상학의 가장 난해한 부분 중 하나이자 후기 헤겔·니체·프랑크푸르트 학파에 영감을 준 대목.' },
+    '힘의놀이': { han: 'Spiel der Kräfte', kor: '힘의 놀이', body: '두 힘이 서로를 이끌고 억누르는 관계. 오성은 이 관계를 분리된 두 힘의 상호작용으로 이해하려 하지만, 결국 이 놀이가 하나의 자기 관계임이 드러난다.' },
+    '무한자': { han: 'Unendlichkeit', kor: '무한자', body: '자기 자신의 대립을 자기 안에 포함하고 그 대립을 통해 자기로 돌아오는 것. 헤겔은 이 참된 무한이 곧 자기의식의 구조임을 밝힌다.' },
+    '자기의식으로의이행': { han: 'Übergang zum Selbstbewusstsein', kor: '자기의식으로의 이행', body: '오성이 대상 세계 배후에서 발견한 것이 결국 자기 자신임을 자각하는 순간. “의식이 자기의 대상 안에서 자기 자신을 보게 된다”(§164). 이 자각과 함께 정신현상학은 두 번째 국면인 자기의식으로 넘어간다.' },
+    '자기의식': { han: 'Selbstbewusstsein', kor: '자기의식', body: '의식이 자기의 대상 안에서 자기를 발견한 형태. “자아=자아(Ich=Ich)”의 자기 관계이며, 이 자기 확신을 실현하려면 타자를 필요로 한다.' },
+    '자기확신': { han: 'Gewissheit seiner selbst', kor: '자기 확신의 진리', body: '자기의식은 자기의 자기 관계를 진리로 확신하나, 아직 그 진리를 실제로 성취하지는 못했다. 진리를 얻으려면 타자(다른 자기의식)와의 매개가 필요하다.' },
+    '욕망': { han: 'Begierde', kor: '욕망', body: '자기의식의 첫 형태 — 자기 밖의 대상(생명·타자)을 부정하여 자기와 하나로 만들려는 운동. 그러나 대상이 소멸해 버리면 자기의식은 자기 확신을 반복해서 되찾아야 한다.' },
+    '생명': { han: 'Leben', kor: '생명', body: '자기의식이 자기의 타자로 만나는 첫 형태. 유기적 자기 유지 운동으로서 자기의식과 구조적 유사성을 가진다. 그러나 자기의식이 참으로 자기를 확신하려면 생명 이상의 타자 — 곧 다른 자기의식 — 이 필요하다.' },
+    '유': { han: 'Gattung', kor: '유', body: '생명의 무한한 자기 유지·재생. 그러나 이는 아직 자기 관계가 되지 못했고, 이 매개가 자기의식이 되는 것은 다른 자기의식과의 만남에서다.' },
+    '타자로서의자기': { han: 'das Selbst als Anderes', kor: '타자로서의 자기 발견', body: '자기의식은 다른 자기의식을 만남으로써만 자기 자신을 확증할 수 있다. “자기의식은 오직 인정된 것으로서만 존재한다”(§178).' },
+    '인정': { han: 'Anerkennung', kor: '인정', body: '헤겔 정신현상학의 가장 유명한 개념 중 하나. 자기의식은 다른 자기의식으로부터 자기의 자기됨을 인정받아야 실제로 자기의식이 된다. 이 상호 인정이 지배와 예속의 원초 투쟁을 거쳐 궁극적으로 인륜적 공동체에서 성취된다.' },
+    '이중적자기의식': { han: 'doppeltes Selbstbewusstsein', kor: '이중적 자기의식', body: '자기의식이 자기 안에 이미 타자(다른 자기의식)를 함축하고 있다는 구조. “자아는 우리이고 우리는 자아이다”(§177)의 예비.' },
+    '지배예속': { han: 'Herrschaft und Knechtschaft', kor: '지배와 예속', body: '두 자기의식이 서로 인정을 요구하며 죽음을 무릅쓴 투쟁을 벌인 결과의 관계. 죽음의 공포로 굴복한 자가 노예가 되고 굴복하지 않은 자가 주인이 된다. 그러나 이 관계는 자기 내에서 역전을 배태하고 있다.' },
+    '인정투쟁': { han: 'Kampf um Anerkennung', kor: '인정 투쟁', body: '두 자기의식이 서로에게서 자기의 자기됨을 인정받으려는 원초적 투쟁. 헤겔은 이를 사회적 상호작용의 존재론적 원형으로 제시했으며, 이후 코제브·사르트르·호네트에게 결정적 영향을 미친다.' },
+    '죽음을무릅쓰고': { han: 'Einsetzen des Lebens', kor: '죽음을 무릅쓴 투쟁', body: '자기의식이 자기의 순수 자기됨을 확증하려면 생명(단순 현존)에 매이지 않음을 보여야 한다. 이 위험 감수가 인정 투쟁의 조건이다.' },
+    '주인': { han: 'Herr', kor: '주인', body: '투쟁에서 죽음을 무릅쓰고 승리한 자기의식. 노예를 매개로 사물을 향유한다. 그러나 자기의 자립성이 실은 노예에게 의존하는 역설을 담고 있다.' },
+    '노예': { han: 'Knecht', kor: '노예', body: '죽음의 공포로 굴복한 자기의식. 사물을 형성하는 노동을 통해 대상 세계에 자기의 흔적을 새기고, 그 노동 안에서 자기 자신을 발견한다. 이 발견이 노예를 참된 자기의식의 자리로 만든다.' },
+    '사물의향유': { han: 'Genuss des Dings', kor: '주인의 사물 향유', body: '주인은 노예의 노동을 통해 가공된 사물을 소비한다. 그러나 이 향유는 노예의 매개에 의존하며, 자기 스스로 사물과 대결하지 못한다.' },
+    '노동': { han: 'Arbeit', kor: '노동 — 노예의 자기 형성', body: '노예는 사물을 자기 마음대로 소비할 수 없으므로 사물의 저항 앞에서 사물을 형성한다. 이 형성 노동에서 노예는 자기의 의지를 사물에 새기고, 사물에 새겨진 자기를 봄으로써 자기의식을 성숙시킨다. 마르크스가 이 대목에서 노동 개념의 정신적 존엄을 발견한다.' },
+    '죽음의공포': { han: 'Furcht des Todes', kor: '죽음의 공포 · 절대적 주인', body: '“절대적 주인”으로서의 죽음의 공포가 노예에게 그의 모든 안정된 존재를 흔들어 놓는다. 이 흔들림이 노예로 하여금 자기의 “모든 것을 잃음”의 경험 안에서 자기의 순수 자기됨을 발견하게 한다.' },
+    '주인의역설': { han: 'Paradox des Herrn', kor: '주인의 역설', body: '주인은 자립적 자기의식으로 자처하지만 실제로는 노예에게 인정받아야만 주인이 된다 — 곧 노예에게 의존한다. 반면 노예는 노동을 통해 참된 자기의식을 획득한다. 이 역전이 헤겔 정치철학·마르크스주의의 원천이다.' },
+    '노예의역설': { han: 'Paradox des Knechts', kor: '노예의 역설', body: '외적으로 예속된 노예가 노동과 죽음의 공포를 통해 참된 자기의식의 담지자가 됨. “노예가 참으로 자기 자립의 진리다”(§193).' },
+    '사유안의자유': { han: 'Freiheit im Denken', kor: '사유 안의 자유', body: '노예가 노동과 자기 성숙을 통해 도달한 자유. 외적 처지가 어떻든 사유 안에서는 자유롭다. 스토아주의가 이 자유의 첫 형태.' },
+    '스토아주의': { han: 'Stoizismus', kor: '스토아주의', body: '왕좌의 마르쿠스 아우렐리우스도, 사슬에 묶인 에픽테토스도 사유 안에서는 똑같이 자유롭다. 그러나 이 자유는 세계 안의 구체적 규정으로 나가지 못한 채 자기에게로 물러선 자유이며, 결국 공허하다.' },
+    '추상적자유': { han: 'abstrakte Freiheit', kor: '스토아의 추상적 자유', body: '내용 없이 형식적으로만 자유로운 자유. “덕은 유일한 선이다”라고 말할 뿐 무엇이 덕인지에 답하지 못하는 자유. 이 공허가 회의주의로 이행한다.' },
+    '회의주의': { han: 'Skeptizismus', kor: '회의주의', body: '스토아의 추상적 자유가 자기의 공허를 자각하고 모든 규정을 부정하는 태도로 뒤집힘. 그러나 회의주의는 “나는 아무것도 확신하지 않는다”고 말하는 자기 자신은 예외로 두는 자기 모순을 담고 있다.' },
+    '이중적의식': { han: 'doppeltes Bewusstsein', kor: '회의의 이중적 의식', body: '모든 것을 부정하면서 부정하는 자기는 유지되어야 한다는 이중성. 이 이중성이 자기 안에 분열로 정립될 때 불행한 의식이 된다.' },
+    '불행한의식': { han: 'unglückliches Bewusstsein', kor: '불행한 의식', body: '자기 안에 “본질(피안·불변자·신)”과 “유한자(차안·나 자신)”의 분열을 담은 의식. 자기의 본질을 자기 밖으로 밀어내고, 그 본질에 이르지 못하는 자기의 유한성 앞에서 스스로를 벌하는 의식. 중세 기독교 종교의식의 정신현상학적 원형이다.' },
+    '본질과유한': { han: 'Wesen und Endliches', kor: '본질과 유한자의 분열', body: '불변자(피안)와 가변자(차안)의 분열. 자기의 본질을 피안에 두고 자기의 유한자로서의 자기를 부정하려 한다. 이 분열의 초극에서 이성이 태동한다.' },
+    '중세종교': { han: 'mittelalterliches Christentum', kor: '중세 기독교 종교의식', body: '헤겔은 불행한 의식을 역사적으로 중세 기독교 종교성에 대응시킨다. 수도원적 고행·자기 부정·중보자(그리스도)로서의 사제 — 이 형태들이 정신현상학의 논리적 필연 안에서 자기의 자리를 얻는다.' },
+    '고행의식': { han: 'sich aufopferndes Bewusstsein', kor: '고행하는 의식', body: '불행한 의식이 자기의 유한성을 지우기 위해 자기를 희생하는 방식. 고행·금욕·중보. 그러나 이 자기 희생 안에서 자기는 역설적으로 자기의 본질을 되찾는다.' },
+    '이성으로의이행': { han: 'Übergang zur Vernunft', kor: '이성으로의 이행', body: '불행한 의식이 자기 밖에 두었던 본질(신)이 실은 자기 자신임을 자각할 때, “자기의식은 자기의 본질이 곧 실재임을 확신한다” — 이것이 이성이다. §230.' },
+    '이성': { han: 'Vernunft', kor: '이성', body: '자기의식이 자기의 본질이 곧 세계의 본질임을 확신한 형태. “이성은 모든 실재이다(Vernunft ist alle Realität)”라는 관념론적 원리를 근본 규정으로 삼는다.' },
+    '이성의확신': { han: 'Gewissheit der Vernunft', kor: '이성의 확신과 진리', body: 'Ⅴ장 표제. 이성은 아직 확신에 머물러 있으며, 이 확신을 실제로 실현하기까지 (A) 관찰 (B) 실현 (C) 즉자대자적 개체성의 세 국면을 거쳐야 한다.' },
+    '모든실재': { han: 'alle Realität', kor: '“이성은 모든 실재이다”', body: '독일 관념론(칸트·피히테)의 표어를 이성 단계의 자연스러운 확신으로 다룸. 그러나 이 확신은 아직 대상 세계와 매개되지 않은 추상적 확신이다.' },
+    '관념론': { han: 'Idealismus', kor: '관념론 비판', body: '헤겔은 칸트·피히테의 관념론을 정신현상학의 한 단계로 흡수하되, 그 한계 — “실재가 나의 표상이다”라는 주장을 하고서도 그 실재를 대상 인식으로 뒷받침하지 못하는 공허 — 를 지적한다.' },
+    '자연관찰': { han: 'Beobachtung der Natur', kor: '자연의 관찰', body: '이성이 자기의 관념론적 확신을 실증하려 자연에서 자기를 찾는 시도. 그러나 자연은 자기 밖의 타자이므로 이 시도는 언제나 부분적으로만 성공한다.' },
+    '기술일반': { han: 'Beschreibung', kor: '기술(記述)', body: '자연 관찰의 첫 단계. 대상을 분류하고 기술하며 명명. 그러나 기술만으로는 대상의 본질에 이르지 못한다.' },
+    '징표': { han: 'Merkmal', kor: '징표', body: '분류학이 종을 구별하기 위해 세우는 표지. 그러나 이 징표는 대상 자체의 본질이 아니라 관찰자의 편의에 따른 것이라는 한계를 드러낸다.' },
+    '법칙발견': { han: 'Auffindung des Gesetzes', kor: '자연의 법칙 발견', body: '단순 기술을 넘어 대상들 사이의 관계 규정으로 나아감. 그러나 이 법칙도 대상 자체의 자기 규정이 아니라 관찰자가 세운 것이라는 한계를 담는다.' },
+    '유기체': { han: 'Organismus', kor: '유기체', body: '자연 관찰이 마주하는 특별한 대상. 유기체는 부분과 전체가 서로 목적적으로 매개된, 자기 안에 자기 목적을 담은 존재다. 이런 점에서 이성이 자기의 자기 관계를 발견하는 자리가 된다.' },
+    '목적론': { han: 'Teleologie', kor: '목적론', body: '유기체 관찰에서 이성은 목적 개념을 다시 만나게 된다. 부분이 전체를 위해 있는 유기체의 구조는 죽은 인과 기계론으로 설명되지 않는다.' },
+    '내면외면': { han: 'Inneres und Äußeres', kor: '내면과 외면', body: '유기체 관찰에서 마주하는 이중 구조. 유기체의 내면(생명·유·목적)이 어떻게 외면(신체·기관·형태)에 반영되는가라는 물음.' },
+    '유종개체': { han: 'Gattung, Art, Einzelnes', kor: '유·종·개체', body: '자연사가 세우는 분류. 그러나 이 분류가 자연의 자기 규정을 그대로 반영하는지는 확실하지 않다. 유기체는 유·종의 규정을 언제나 초과하는 개별성을 드러낸다.' },
+    '논리적법칙': { han: 'logische Gesetze', kor: '논리적 법칙', body: '자기의식 관찰의 첫 단계. 사유 자체의 법칙을 관찰하려는 시도. 그러나 형식논리학의 죽은 규칙만이 얻어진다.' },
+    '심리학적법칙': { han: 'psychologische Gesetze', kor: '심리학적 법칙', body: '자기의식을 개별 성격의 심리학적 원인들 사이의 관계로 환원하려는 시도. 그러나 개체의 본질은 이런 인과 법칙으로 잡히지 않는다.' },
+    '성격형성': { han: 'Charakterbildung', kor: '성격 형성의 관찰', body: '개체가 세계와 만나며 자기를 형성하는 과정에 대한 관찰. 이 관찰이 관상학·골상학으로 이어진다.' },
+    '관상학': { han: 'Physiognomik', kor: '관상학', body: '얼굴 표정·몸짓에서 성격을 읽으려는 라바터(Lavater)의 시도. 헤겔은 이를 자기의식을 외적 표지로 환원하는 소박한 시도로 다룬다.' },
+    '골상학': { han: 'Schädellehre, Kraniologie', kor: '골상학 · 갈(Gall)', body: '두개골의 형태로 성격·정신 기능을 읽어 내려는 프란츠 요제프 갈(1758–1828)의 학설. 헤겔은 이를 이성의 자기 소외의 극단적 형태로 다룬다.' },
+    '정신은뼈다': { han: 'Der Geist ist ein Knochen', kor: '“정신의 존재는 뼈이다”', body: '골상학의 함의를 사변 명제로 압축한 헤겔의 유명한 발언(§343). 표면적으로는 골상학의 소박한 환원주의를 조롱하지만, 사변적으로는 정신이 자기의 완전한 타자(죽은 뼈) 안에서 자기를 발견하는 구조를 지시한다. “무한한 판단”의 한 예.' },
+    '사변명제예': { han: 'Beispiel spekulativen Satzes', kor: '사변 명제의 극한 예', body: '“정신은 뼈이다” 명제가 사변 명제의 극한 예로 기능함. 주어(정신)와 술어(뼈)가 서로에게 완전히 낯설어 보이지만, 그 극단적 낯섦 자체가 이성의 자기 소외의 진리를 담는다.' },
+    '이성적자기의식실현': { han: 'Verwirklichung des vernünftigen Selbstbewusstseins', kor: '이성적 자기의식의 실현', body: 'Ⅴ장 B절. 관찰의 좌초를 겪은 이성이 이제 스스로 자기를 세계 속에 실현하려 한다. 세 시도 — 쾌락·마음의 법칙·덕 — 이 모두 세계 운행 앞에 좌초한다.' },
+    '쾌락과필연성': { han: 'Lust und Notwendigkeit', kor: '쾌락과 필연성', body: '이성적 자기의식이 자기를 실현하는 첫 시도. 개별적 향유(파우스트적 쾌락)를 추구하지만, 그 쾌락 뒤에서 자기 소외된 사회적 필연이 자기의식을 삼켜 버린다.' },
+    '파우스트적': { han: 'faustisch', kor: '파우스트적 향유의 좌초', body: '괴테 『파우스트』(1808)의 그레첸 비극을 헤겔이 직접 겨냥한다. 개인의 향유가 낳는 무한 결과(그레첸의 파멸) 앞에서 개별적 향유는 자기의 이성적 자기 실현이 아니라 자기 파괴로 뒤집힌다.' },
+    '마음의법칙': { han: 'Gesetz des Herzens', kor: '마음의 법칙', body: '두 번째 시도. 개인이 자기 마음의 내적 확신을 보편법칙으로 세우려 함(예 — 쉴러의 카를 무어). 그러나 그 “마음의 법칙”이 세상에 나오면 다른 이들의 마음에는 폭력으로 느껴져 자만의 광기로 뒤집힌다.' },
+    '자만의광기': { han: 'Wahnsinn des Eigendünkels', kor: '자만의 광기', body: '자기 마음의 법칙을 절대화한 개인이 자기와 세계의 어긋남 앞에서 자기 자신에게로 되돌아 자기를 절대화하는 광기. 낭만주의적 심정 종교·혁명적 광신의 정신현상학적 원형.' },
+    '낭만적심정': { han: 'romantisches Herz', kor: '낭만적 심정의 착란', body: '마음의 법칙 형태에 대한 헤겔의 규정. 낭만주의 시대의 반체제적 심정이 자기의 무매개 확신을 절대화할 때 어떻게 광기로 뒤집히는지를 짚어 낸다.' },
+    '덕과세계운행': { han: 'Tugend und der Weltlauf', kor: '덕과 세계 운행', body: '세 번째 시도. 개인이 자기 마음을 넘어 보편적 “덕”을 내세워 세계 운행과 맞선다. 그러나 세계 운행은 이미 개인의 덕이 아니라 자기 자신의 운동으로 진행하며, 개인의 추상적 덕은 이 세계 안에 자리를 잡지 못한다.' },
+    '돈키호테적덕': { han: 'donquijotesk', kor: '돈키호테적 덕의 파산', body: '자기의 이상을 세계에 맞세우다 좌초하는 덕의 형태. 헤겔은 이 형태를 세르반테스의 돈키호테와 연결한다 — 세계의 산문성 앞에서 낡은 기사도적 덕이 무력화되듯이.' },
+    '추상적덕': { han: 'abstrakte Tugend', kor: '추상적 덕', body: '내용 없는 형식적 덕. “덕은 좋은 것이다”라고 말할 뿐 무엇이 덕의 내용인지에 답하지 못한다. 이 공허가 실제 세계 안에서 좌초하는 근본 이유다.' },
+    '정신적동물의왕국': { han: 'geistiges Tierreich', kor: '정신적 동물의 왕국', body: '이성의 마지막 국면의 첫 형태. 개별 개체들이 각자 자기의 “작품(Werk)”을 통해 자기를 실현하려 하지만, 그 작품들이 서로 무관한 정신적 동물들의 공존 상태를 이룬다. 근대 부르주아 시민사회에 대한 정신현상학적 원형.' },
+    '사태자체': { han: 'die Sache selbst', kor: '“사태 자체”', body: '이 국면의 핵심 개념. 개별 작품 뒤의 보편적 실체 — “우리 모두가 함께 관계하는 그것”. 그러나 이 사태 자체는 종종 “개인이 자기의 이해관계를 은폐하기 위해 내세우는 보편”으로 뒤집힌다.' },
+    '기만': { han: 'Betrug', kor: '기만', body: '개인이 “사태 자체”에 관심 있다고 말하지만 실은 자기 명예·이익을 추구하는 자기 기만. 이 기만이 정직한 의식과 함께 폭로된다.' },
+    '정직한의식': { han: 'das ehrliche Bewusstsein', kor: '정직한 의식', body: '기만을 폭로하는 자. 그러나 정직한 의식 자신도 결국 자기의 이해에 얽매여 있음이 드러난다. 상호 폭로 안에서 참된 “사태 자체”의 개념이 자라난다.' },
+    '법칙제정적이성': { han: 'gesetzgebende Vernunft', kor: '법칙 제정적 이성', body: '이성이 자기를 보편 법칙의 제정자로 세우는 형태. 그러나 개별 법칙(“네 것과 내 것을 구별하라”)은 자기 안에서 모순 없이 유지되지 못한다.' },
+    '법칙검증적이성': { han: 'gesetzprüfende Vernunft', kor: '법칙 검증적 이성', body: '칸트의 정언명령(“네 준칙이 보편 법칙이 되기를 원할 수 있는가”)을 정신현상학적으로 다룬 부분. 헤겔은 이 형식적 검증이 어떤 실질적 규정도 도출하지 못함을 지적한다 — 소유·비소유 어느 쪽도 형식적 모순 없이 보편화될 수 있기 때문이다.' },
+    '칸트비판': { han: 'Kritik an Kant', kor: '칸트 실천이성 비판', body: '헤겔의 유명한 칸트 도덕성 비판. 정언명령은 실질적 도덕 내용을 산출하지 못하며, 진정한 도덕성은 인륜적 공동체(Sittlichkeit) 안에서만 구체적으로 규정된다는 통찰. 이는 뒷날의 정신철학·법철학으로 발전한다.' },
+    '정언명령비판': { han: 'Kritik am kategorischen Imperativ', kor: '정언명령 형식성 비판', body: '“보편화 가능성”이라는 형식만으로는 무엇이 도덕적인지 결정할 수 없다. 소유 제도의 존재/부재 어느 쪽도 형식적으로는 모순 없이 보편화될 수 있다는 반례.' },
+    '이성정신이행': { han: 'Übergang zur Substanz', kor: '이성에서 정신으로의 이행', body: '개체 이성이 자기 실현에서 좌초하면서 개체가 자기 밖에 이미 있는 실체적 공동체 — 인륜적 세계 — 의 계기임이 자각된다. 이것이 (BB) 정신 장(章)의 개시다.' },
+    '정신': { han: 'Geist', kor: '정신 — “우리인 나, 나인 우리”', body: '(BB) 정신 장의 근본 규정 — “Ich, das Wir, und Wir, das Ich ist”(§177 예고, §439 명시). 개체와 공동체가 매개된 실체 = 주체. 정신은 자기 자신 안에 자기의 구성원(개별자)을 담고 있고, 개별자는 자기의 본질로서 이 실체를 자각한다.' },
+    '인륜적실체': { han: 'sittliche Substanz', kor: '인륜적 실체', body: '개별자에 앞서 이미 있는, 공동체적 규범과 관습의 총체. 그리스 폴리스가 그 원형적 모델이다.' },
+    '실체와주체': { han: 'Substanz und Subjekt', kor: '실체와 주체의 통일', body: '정신의 본질 규정. 정신은 단지 실체(공동체적 규범)가 아니라 그 안의 자기 관계(주체) — 곧 개별자들이 이 실체를 자기의 것으로 자각하는 자기 매개다.' },
+    '참된정신': { han: 'wahrer Geist', kor: '참된 정신 · 인륜성', body: 'Ⅵ장 A절 표제. 그리스 폴리스의 조화로운 인륜성. 개인이 공동체의 규범을 자기의 것으로 살고 있고, 공동체가 개인들의 삶 안에서 실체적으로 자기를 드러낸다.' },
+    '인륜성': { han: 'Sittlichkeit', kor: '인륜성', body: '헤겔 특유의 개념. 개인 도덕(Moralität)과 대비되며, 개인이 자기의 자유를 공동체적 규범 안에서 실현하는 방식. 그리스 폴리스가 이 인륜성의 자연적·조화로운 원형이다.' },
+    '인간법': { han: 'menschliches Gesetz', kor: '인간법 — 국가', body: '남성·성인이 대변하는 공적 공동체(폴리스)의 법. 공개된 규범, 낮의 법.' },
+    '신법': { han: 'göttliches Gesetz', kor: '신법 — 가족', body: '여성·죽은 자(조상)가 대변하는 가족의 법. 공개되지 않은 규범, 밤의 법. 가족은 죽은 자를 매장할 의무를 짐으로써 그를 자연적 죽음에서 구원한다.' },
+    '남성여성': { han: 'Mann und Weib', kor: '남성과 여성의 대립', body: '인륜적 실체가 자기 안에 담고 있는 두 원리. 공적 세계(남성)와 사적 세계(여성)의 대립이 안티고네 비극에서 극적으로 드러난다.' },
+    '가족': { han: 'Familie', kor: '가족', body: '신법의 담지자. 자연적 관계(피)를 넘어 조상 숭배·매장 의무를 통해 개인을 죽음의 우연으로부터 구제한다.' },
+    '공동체폴리스': { han: 'Gemeinwesen', kor: '공동체', body: '인간법의 담지자. 폴리스로서의 자기 유지 · 전쟁을 통해 개인의 사적 이해를 정기적으로 부정하여 인륜성을 재활성화한다.' },
+    '인륜적행위': { han: 'sittliche Handlung', kor: '인륜적 행위', body: '개인이 인륜적 실체의 한 원리(신법이든 인간법이든)를 자기의 것으로 행함. 이 행위가 다른 원리와의 충돌을 낳으며 인륜성의 자기 모순을 드러낸다.' },
+    '안티고네': { han: 'Antigone', kor: '안티고네', body: '소포클레스 비극의 여주인공. 오빠 폴리네이케스의 매장(신법·가족법의 명령)을 위해 크레온의 국법(인간법)을 어긴다. 헤겔에게 이 비극은 인륜성의 자기 파괴를 극명하게 드러내는 원형이며, 정신현상학에서 그리스 인륜성의 몰락을 상징한다.' },
+    '크레온': { han: 'Kreon', kor: '크레온', body: '테베의 왕. 인간법의 담지자로서 반역자의 매장을 금한다. 그의 아들 하이몬은 안티고네의 약혼자였고, 크레온은 결국 아들·아내를 잃고 자기의 승리가 파괴임을 자각한다.' },
+    '죄과': { han: 'Schuld', kor: '죄과', body: '헤겔에게 인륜적 행위자의 죄과는 도덕적 잘못이 아니라 인륜적 실체의 한 원리를 자기의 것으로 취함으로써 다른 원리를 필연적으로 침범한 데서 오는 존재론적 죄과다. 안티고네도 크레온도 “무죄한” 죄인이다.' },
+    '운명': { han: 'Schicksal', kor: '운명 — 인륜성의 파괴', body: '두 원리(인간법·신법)의 상호 파괴가 인륜성 전체를 무너뜨림. 이 자기 파괴 안에서 인륜성은 자기의 진리(실은 두 원리가 하나의 정신의 계기임)를 자각하나, 그 자각과 함께 인륜성 자체는 사라진다.' },
+    '인륜성의파괴': { han: 'Untergang der Sittlichkeit', kor: '인륜성의 자기 파괴', body: '그리스 폴리스의 몰락. 폴리스의 조화가 무너지고 뒷날 로마 제국의 추상적 법적 인격이 등장한다. 이 이행이 §463 이하의 “법적 상태”다.' },
+    '법적상태': { han: 'Rechtszustand', kor: '법적 상태', body: '그리스 인륜성이 파괴된 뒤 로마 제국에서 나타나는 형태. 개인은 공동체적 인륜에서 뿌리 뽑혀 추상적 “인격(persona)”으로 축소되고, 이 인격에 대한 형식적 법적 인정만 남는다.' },
+    '로마제국': { han: 'Römisches Kaiserreich', kor: '로마 제국', body: '법적 상태의 역사적 담지자. 폴리스의 인륜적 유대가 사라진 뒤 형식적 시민권과 소유권만 남은 시대. 이 공허 위에서 스토아·회의·불행한 의식이 다시 태동한다.' },
+    '추상적인격': { han: 'abstrakte Person', kor: '추상적 인격', body: '법적 상태의 개인 규정. 구체적 인륜적 관계에서 분리된, 형식적 소유·계약의 주체. 로마법의 persona가 그 역사적 형태.' },
+    '스토아이행': { han: 'Rückkehr zum Stoizismus', kor: '스토아·회의로의 회귀', body: '법적 상태에서 개인은 자기의 인륜적 뿌리를 잃고 스토아·회의·불행한 의식으로 물러난다 — 이번엔 자기의식 단계가 아니라 정신 단계 안의 형태로. 이 이행이 자기의식 장과 정신 장의 구조적 유비를 이룬다.' },
+    '자기소외': { han: 'Selbstentfremdung', kor: '자기 소외', body: '정신이 자기 자신을 자기의 타자로 만든 상태. 근대 세계에서 정신은 자기의 실체(국가·경제)를 자기 밖의 낯선 것으로 마주하며 이 낯섦을 통해 자기를 형성한다.' },
+    '도야': { han: 'Bildung', kor: '도야', body: '개인이 자기의 자연적 개체성을 부정하고 낯선 실체(공적 세계·국가·문화)의 요구에 자기를 맞추어 형성함. 이 소외 과정 자체가 정신의 자기 형성이다.' },
+    '현실의왕국': { han: 'das Reich der Wirklichkeit', kor: '도야의 왕국', body: '자기 소외된 정신의 세계. 국가 권력과 부(富)라는 두 실체적 힘이 마주 서 있고, 개인은 이 두 힘 사이에서 자기를 형성한다.' },
+    '국가권력': { han: 'Staatsmacht', kor: '국가 권력', body: '도야 왕국의 한 축. 개인에게 명령하는 보편적 실체. 이에 대한 태도(고귀·비열)에 따라 개인 의식이 분화된다.' },
+    '부': { han: 'Reichtum', kor: '부', body: '도야 왕국의 다른 한 축. 개인의 향유를 매개하나, 그 근원(타인의 노동)이 은폐되어 있다. 부에 대한 태도로 개인 의식이 또다시 분화된다.' },
+    '고귀한의식': { han: 'edelmütiges Bewusstsein', kor: '고귀한 의식', body: '국가 권력과 부에 대해 “이것은 나의 실체이다”라고 승인하는 태도. 그러나 이 승인이 표면적 아부로 변질되기 쉽다.' },
+    '비열한의식': { han: 'niederträchtiges Bewusstsein', kor: '비열한 의식', body: '국가 권력과 부에 대해 겉으로는 굴복하나 속으로는 그것을 자기 이익의 수단으로만 여기는 태도. 이 태도가 극에 달할 때 근대적 “찢어진 의식”이 된다.' },
+    '언어': { han: 'Sprache', kor: '언어 — 소외의 매개', body: '도야 세계에서 개인이 자기를 표현하는 매체. 그러나 이 언어는 자기 진심을 직접 드러내기보다 실체(권력·부·문화)에 맞추어 자기를 뒤틀어 표현하는 아부·기지·반어의 언어가 된다.' },
+    '아부': { han: 'Schmeichelei', kor: '아부', body: '언어의 도야 왕국적 형태 중 하나. 개인이 실체(권력자)에 자기의 존엄을 팔며 표면적 굴종을 언어로 수행하는 방식. 프랑스 궁정 문화가 헤겔의 원형이다.' },
+    '라모의조카': { han: 'le Neveu de Rameau', kor: '라모의 조카(디드로)', body: '디드로의 소설(1762 집필). 도야된 근대인의 자기 소외된 재기 발랄한 냉소를 완벽히 형상화한 인물. 헤겔은 이 인물을 “찢어진 의식”의 정신현상학적 원형으로 인용한다. 괴테가 번역했고 헤겔이 그 번역을 참조했다.' },
+    '찢어진의식': { han: 'das zerrissene Bewusstsein', kor: '찢어진 의식', body: '자기 안에 실체적 세계에 대한 승인과 거부·아부와 냉소를 함께 담고 있는, 자기 분열을 자기의 진리로 자각한 근대 의식. 라모의 조카가 그 극단적 예다. 이 찢어짐 자체가 정신의 자기 소외의 완성 형태다.' },
+    '신앙': { han: 'Glaube', kor: '신앙', body: '도야 세계의 한 계기. 실체적 진리를 피안(신·초월적 세계)에 두고 그것을 믿음. 이 신앙이 계몽의 공격 대상이 된다.' },
+    '순수통찰': { han: 'reine Einsicht', kor: '순수한 통찰', body: '계몽의 예비 형태. 자기 안의 이성 외에는 어떤 권위도 인정하지 않는 태도. 이 통찰이 신앙을 미신으로 규정하며 계몽의 투쟁을 시작한다.' },
+    '계몽의예비': { han: 'Vorbereitung der Aufklärung', kor: '계몽의 예비 형태', body: '순수 통찰이 아직 자기의 적(신앙)을 완전히 무너뜨리지 않은 초기 단계. 여기서 두 원리(신앙·통찰)가 정신 안에서 대립하기 시작한다.' },
+    '계몽': { han: 'Aufklärung', kor: '계몽', body: '순수 통찰이 자기의 원리를 관철시켜 신앙을 미신으로 폭로하고 유용성 원리로 세계를 재구성하는 운동. 18세기 프랑스 계몽사상이 헤겔의 원형이다.' },
+    '미신투쟁': { han: 'Kampf gegen den Aberglauben', kor: '미신에 대한 계몽의 투쟁', body: '계몽이 신앙을 “미신”으로 규정하고 공격함. 그러나 이 공격 안에서 계몽 자신도 자기의 원리(순수 사유)를 절대화하는 새로운 신앙에 빠진다.' },
+    '계몽의진리': { han: 'Wahrheit der Aufklärung', kor: '계몽의 진리', body: '계몽이 자기의 원리를 폭로하고 나면 남는 것은 “유용성”이라는 근본 규정이다. 모든 것은 다른 것에 유용한 한에서만 있다.' },
+    '유용성': { han: 'Nützlichkeit', kor: '유용성', body: '계몽의 근본 규정. 모든 존재는 다른 것에 대한 유용성으로 환원된다. 이 원리가 절대적 자유(프랑스 혁명)로 이행하며 자기의 극한에 이른다.' },
+    '이신론': { han: 'Deismus, Materialismus', kor: '이신론 · 물질론', body: '계몽의 두 형태. 신을 세계 밖의 최고 존재로 남겨 두는 이신론과, 세계를 물질로 환원하는 유물론. 헤겔은 이 둘이 실은 같은 형태의 두 얼굴임을 보인다.' },
+    '계몽의공허': { han: 'Leere der Aufklärung', kor: '계몽의 공허', body: '계몽이 신앙의 실체적 내용을 다 지운 뒤에 남는 것은 형식적 자유·유용성뿐이다. 이 공허 위에서 절대적 자유가 폭발한다.' },
+    '절대적자유': { han: 'absolute Freiheit', kor: '절대적 자유', body: '계몽의 원리가 정치적 형태로 폭발한 것. 모든 매개(신분·전통·제도)를 무너뜨리고 순수 자기 확신만으로 세계를 다시 만들려는 의지. 프랑스 혁명이 그 역사적 형태다.' },
+    '경악': { han: 'Schrecken', kor: '경악·공포', body: '절대적 자유가 실현되려 할 때 필연적으로 낳는 결과. 어떤 실체적 매개도 인정하지 않으니 단두대가 유일한 매개가 된다. 헤겔의 비유 — “양배추의 목을 자르듯 잘리는 죽음”.' },
+    '프랑스혁명': { han: 'französische Revolution', kor: '프랑스 혁명', body: '헤겔에게 프랑스 혁명은 근대 정치의 가장 결정적 사건이다. “지금까지 인간이 자기 사상에 따라 세계를 다시 세우려 한 최초의 시도”(『역사철학』). 정신현상학에서는 절대적 자유와 공포의 통일적 형태로 다뤄진다.' },
+    '공포정치': { han: 'Terreur', kor: '공포정치(자코뱅)', body: '1793–94년 로베스피에르의 공포정치. 순수 보편의지의 이름으로 개별성이 인정되지 않고 처형되는 상태. 이 형태가 절대적 자유의 논리적 귀결임이 정신현상학의 진단이다.' },
+    '보편의지': { han: 'volonté générale', kor: '루소적 보편의지 비판', body: '루소의 보편의지 개념을 헤겔은 계승하되 그것이 매개된 실체(제도·법·인륜)를 통과하지 않으면 어떻게 공포로 뒤집히는지 보인다.' },
+    '무의미한죽음': { han: 'sinnloses Sterben', kor: '양배추의 목처럼 잘리는 죽음', body: '절대적 자유 아래서의 처형. “그것은 양배추 대가리를 베거나 물 한 모금을 삼키는 것보다 더 이상의 의미를 갖지 않는다”(§590). 매개 없는 순수 부정의 극한.' },
+    '도덕성이행': { han: 'Übergang zur Moralität', kor: '도덕성으로의 이행', body: '절대적 자유가 자기의 공포를 자각하고 자기의 순수 부정성을 안으로 거두어들일 때, 그 부정성은 개인의 도덕적 확신·양심으로 내면화된다. 이것이 도덕성 국면의 개시다.' },
+    '자기확신정신': { han: 'seiner selbst gewisser Geist', kor: '자기 자신을 확신하는 정신', body: 'Ⅵ장 C절 표제. 절대적 자유의 외적 파괴가 개인의 내면으로 거두어져 도덕적 자기 확신이 된 형태. 칸트·피히테의 도덕철학과 낭만주의 양심이 이 국면에 대응한다.' },
+    '도덕성': { han: 'Moralität', kor: '도덕성', body: '인륜성(Sittlichkeit)과 대비되는 개인의 도덕 확신. 헤겔은 도덕성을 인륜성보다 더 소외된 형태로 규정하나, 근대 세계에서 도덕성이 인륜성의 재구성으로 이어져야 한다고 본다.' },
+    '도덕적세계관': { han: 'moralische Weltanschauung', kor: '도덕적 세계관', body: '칸트의 실천철학이 그 원형. 도덕과 행복이 이 세상에서는 조화롭지 않으니 신·자유·불멸이 요청되어야 한다는 세계상. 헤겔은 이 세계관의 자기 모순을 폭로한다.' },
+    '칸트요청': { han: 'Postulate', kor: '칸트의 요청 — 신·자유·불멸', body: '『실천이성비판』의 세 가지 요청. 헤겔은 이 요청이 도덕성이 자기의 실현을 자기 밖에서 구할 수밖에 없는 자기 모순의 표현임을 지적한다.' },
+    '도덕과행복': { han: 'Moralität und Glückseligkeit', kor: '도덕과 행복의 조화 요청', body: '도덕적 완성과 행복이 이 세상에서 일치하지 않는다는 인식이 곧 도덕적 세계관의 출발. 이 인식이 요청·전위·양심으로 이어진다.' },
+    '전위': { han: 'Verstellung', kor: '전위(轉位) · 도덕적 위선', body: '도덕적 세계관이 자기의 요청(신·불멸)을 실제로 진지하게 믿지 않으면서도 도덕성을 위해 필요하다고 위선적으로 세우는 상태. 김준수 역에서 이 개념을 “전위”로 옮긴 것은 이 위선적 자리 옮김의 뜻을 살리려는 선택이다.' },
+    '도덕적위선': { han: 'moralische Heuchelei', kor: '도덕적 위선의 자기 폭로', body: '도덕적 세계관은 자기의 요청을 자기 안에서 진지하게 유지할 수 없다. 이 자기 모순의 자각이 곧 양심으로의 이행이다.' },
+    '양심': { han: 'Gewissen', kor: '양심', body: '도덕성의 마지막 형태. 도덕적 확신을 개인의 내면적 자기 확신으로 완전히 내면화한 형태. 개인은 자기의 확신에 따라 행위하며 그 확신이 곧 의무다.' },
+    '확신': { han: 'Überzeugung', kor: '확신 — 도덕적 행위의 근거', body: '양심의 원리. 무엇이 옳은지에 대한 판단이 개인의 확신에 절대적으로 의존한다는 태도. 그러나 확신들이 서로 다를 때 어떤 매개도 남지 않는 문제가 발생한다.' },
+    '아름다운영혼': { han: 'schöne Seele', kor: '아름다운 영혼', body: '양심이 자기의 순수성을 유지하려 어떤 행위에도 나서지 않는 형태. 낭만주의(예 — 야코비·노발리스)의 자기 순수성 숭배가 이 형태의 원형이다. 자기 순수성 안에서 결국 폐결핵으로 스러지는 자의 이미지.' },
+    '행위와판단': { han: 'Handelnder und Richtender', kor: '행위하는 자와 판단하는 자', body: '양심의 국면에서 두 자기의식의 대립. 행위한 자는 자기의 확신에 따라 행위했으나 판단하는 자는 그 행위를 이해타산으로 비난한다. 두 자기의식이 서로에게 자기의 진실을 시험한다.' },
+    '악': { han: 'das Böse', kor: '악과 용서', body: '양심의 이중성 — 나의 순수 확신이 다른 자에게는 악으로 보일 수 있음. 이 상호 비난을 넘는 유일한 길이 상호 고백과 용서다.' },
+    '용서': { han: 'Verzeihen', kor: '용서 — 정신적 화해', body: '“악을 고백하는 정신”과 “그 고백을 받아들이는 정신”이 서로 상대의 유한성을 인정하고 화해함. 이 화해가 정신이 자기 안에서 자기와의 통일을 이루는 순간이며, 이로써 정신은 종교로 이행한다. §670 유명한 대목 — “이 용서로 정신은 정신으로서의 자기의 절대적 존재를 드러낸다”.' },
+    '종교로의이행': { han: 'Übergang zur Religion', kor: '종교로의 이행', body: '양심과 용서의 자기 화해에서 정신은 자기 자신을 자기 앞에 세우는 형태 — 종교 — 로 이행한다. 정신이 자기의 본질을 자기의 대상으로 삼는다.' },
+    '종교': { han: 'Religion', kor: '종교', body: '(CC) 종교 장. 정신이 자기 자신을 자기 밖에 표상(Vorstellung)의 형식으로 세우고 자기 앞에서 자기를 보는 형태. 이 표상 형식이 아직 개념이 아니라는 점이 종교의 한계이자 특징이다.' },
+    '표상': { han: 'Vorstellung', kor: '표상 형식', body: '헤겔에게 표상은 개념보다 하위의 앎의 형식. 이미지·이야기·의례로 진리를 담는 방식. 종교는 표상 형식으로 절대자를 담고, 절대지는 이 표상을 개념으로 지양한다.' },
+    '자연종교': { han: 'natürliche Religion', kor: '자연 종교', body: '(CC) 종교 A절. 정신이 자기를 자연적 형태에서 표상하는 종교. 광원체(빛)·식물·동물·인간이 만든 자연물(피라미드) 등의 순서로 자기 규정을 심화한다.' },
+    '광원체': { han: 'Lichtwesen', kor: '광원체 · 조로아스터교', body: '자연 종교의 첫 형태. 정신이 자기를 자연의 순수한 실체 — 빛 — 으로 표상함. 페르시아 조로아스터교의 아후라 마즈다·불의 숭배가 이에 해당한다.' },
+    '식물동물종교': { han: 'Pflanzen- und Tierreligion', kor: '식물·동물 종교', body: '광원체를 넘어 특정 식물·동물을 신적 담지자로 삼는 종교. 힌두교의 신성한 소·이집트의 동물신들(호루스·아누비스 등)이 이에 대응한다.' },
+    '장인': { han: 'Werkmeister', kor: '장인(匠人)', body: '자연 종교의 셋째 형태이자 예술 종교의 예비. 인간이 자연적 재료를 가공하여 신적 형상(피라미드·스핑크스·오벨리스크)을 만드는 단계. 이집트 문명이 그 역사적 형태다. 정신이 자기 자신을 자기의 작품에서 어렴풋이 보기 시작한다.' },
+    '이집트': { han: 'Ägypten', kor: '이집트 피라미드·스핑크스', body: '장인 종교의 역사적 담지자. 스핑크스 — 인간 얼굴에 동물 몸 — 는 정신이 아직 자연(동물성)에서 완전히 자기를 분리하지 못한 상태를 상징한다. 그러나 이 형태에서 정신이 자기의 자기됨을 예감한다.' },
+    '예술종교': { han: 'Kunstreligion', kor: '예술 종교', body: '(CC) 종교 B절. 정신이 자기의 자기됨을 예술적 형상(신상·시·비극)에서 표상하는 종교. 그리스 세계가 그 역사적 형태다.' },
+    '그리스종교': { han: 'griechische Religion', kor: '그리스 종교 세계', body: '예술 종교의 담지자. 신들이 완전히 인간적 형상(올림포스 신들)으로 나타나며, 예술이 종교의 형식이다. 헤겔에게 이는 “미의 종교”의 정점.' },
+    '추상적예술작품': { han: 'abstraktes Kunstwerk', kor: '추상적 예술 작품', body: '예술 종교의 첫 단계. 신상(神像) — 정지된 신적 형상. 그러나 신상은 아직 죽어 있는 형상이며, 살아 있는 정신의 자기 표현으로는 부족하다.' },
+    '신상': { han: 'Götterbild', kor: '신상', body: '조각으로 형상화된 신. 그리스 조각의 완벽한 인간적 형상. 그러나 이 형상은 정지된 대리석이며 정신의 살아있는 자기 표현이 아니다.' },
+    '찬가': { han: 'Hymne', kor: '찬가', body: '신상에 목소리를 부여하는 형식. 정신이 자기의 신을 노래로 부름. 신상에 살아 있는 언어가 덧붙는다.' },
+    '생동하는예술작품': { han: 'lebendiges Kunstwerk', kor: '생동하는 예술 작품', body: '예술 종교의 둘째 단계. 살아 있는 인간의 몸으로 신을 표상함 — 바쿠스 축제·올림픽 경기·신비극. 정신이 이제 살아 있는 신체에서 자기를 본다.' },
+    '바쿠스축제': { han: 'Bacchanal', kor: '바쿠스 축제 · 신비극', body: '디오니소스의 광란과 엘레우시스 신비 의식. 정신이 자기의 자기성을 정지된 형상이 아니라 생동하는 도취·황홀에서 표상한다. 뒷날 니체가 이 대목을 재발견한다.' },
+    '정신적예술작품': { han: 'geistiges Kunstwerk', kor: '정신적 예술 작품', body: '예술 종교의 셋째이자 최고 단계. 언어를 통한 정신의 자기 표현 — 서사시·비극·희극. 정신이 이제 언어라는 진정한 정신적 매체에서 자기를 표상한다.' },
+    '서사시': { han: 'Epos', kor: '서사시 — 호메로스', body: '정신적 예술 작품의 첫 형태. 호메로스의 『일리아스』·『오디세이아』. 신과 인간이 함께 등장하지만 시인(음유시인)이 그들 밖에서 이야기한다 — 정신이 아직 자기 자신 안에서 완전히 자기 관계에 이르지 못했음의 표지.' },
+    '비극': { han: 'Tragödie', kor: '비극 — 아이스킬로스·소포클레스', body: '서사시를 넘어 등장인물이 자기의 말을 자기의 것으로 말함. 아이스킬로스·소포클레스·에우리피데스. 안티고네·아가멤논·오이디푸스의 비극은 신법과 인간법, 개인과 운명의 대립을 형상화한다.' },
+    '희극': { han: 'Komödie', kor: '희극 — 아리스토파네스', body: '예술 종교의 마지막 형태. 아리스토파네스의 희극에서 신들과 영웅들은 인간의 조롱을 받으며 무대에서 내려온다. 정신이 자기의 신들을 자기의 산물로 자각하는 순간 — 예술 종교의 자기 종언이자 계시 종교의 예비.' },
+    '행복한자기의식': { han: 'das glückliche Selbstbewusstsein', kor: '“행복한 자기의식”의 신들의 죽음', body: '희극이 열어 놓는 자각. 인간이 자기의 신들을 웃음거리로 만듦으로써 자기가 그 신들의 창조자임을 자각한다. “신들은 죽었다”는 통찰이 이미 여기 있다.' },
+    '계시종교': { han: 'offenbare Religion', kor: '계시 종교', body: '(CC) 종교 C절. 정신이 자기 자신을 완전히 자기 앞에 드러낸 종교 — 기독교. 절대자가 인간의 형상으로 자기를 계시했다는 근본 표상이 그 중심에 있다.' },
+    '절대종교': { han: 'absolute Religion', kor: '절대 종교(기독교)', body: '헤겔은 기독교를 종교의 최고 형태로 규정한다. 그 이유는 절대자(신)와 유한자(인간)의 통일이 성육신의 표상에서 명시적으로 드러나기 때문이다.' },
+    '성육신': { han: 'Menschwerdung, Incarnatio', kor: '성육신', body: '“말씀이 육신이 되어 우리 가운데 거하시매”(요한 1:14). 신이 인간이 되었다는 표상. 헤겔에게 이는 절대자가 자기의 타자성을 자기 안에 완전히 담아냄의 종교적 표상이다.' },
+    '신인동형': { han: 'Gott-Mensch', kor: '신인(神人)의 통일', body: '기독교의 성육신 교리에서 신과 인간이 한 위격(그리스도)에서 통일됨. 헤겔은 이 신인 통일을 실체=주체의 종교적 표상으로 해석한다.' },
+    '그리스도': { han: 'Christus', kor: '그리스도', body: '역사적으로 나타난 신-인간. 정신현상학에서 그리스도는 절대자의 자기 계시의 표상적 형태이며, 그 죽음과 부활이 실체가 주체로 화하는 사건의 종교적 형상이다.' },
+    '죽음과부활': { han: 'Tod und Auferstehung', kor: '그리스도의 죽음과 부활', body: '“신은 죽었다”의 근본 뜻(정신현상학판) — 무한자가 유한성을 완전히 자기 것으로 겪음. 이 죽음이 부활(즉 성령의 공동체로의 이행)로 지양됨이 절대자의 자기 매개의 종교적 표상이다.' },
+    '삼위일체': { han: 'Dreieinigkeit', kor: '삼위일체', body: '성부·성자·성령의 통일. 헤겔은 이 교리를 절대자의 자기 매개 구조(정립·소외·귀환)의 종교적 표상으로 해석한다. 성부는 즉자, 성자는 대자(자기 소외), 성령은 즉자대자(자기와의 통일).' },
+    '성부성자성령': { han: 'Vater, Sohn, Geist', kor: '성부·성자·성령', body: '삼위일체의 세 위격. 헤겔의 사변적 해석에서는 정신의 세 계기의 표상이다.' },
+    '공동체': { han: 'Gemeinde', kor: '공동체 안의 성령', body: '성령이 그리스도의 죽음 이후 공동체(교회) 안에 임함. 개인 그리스도의 특수성이 지양되고 공동체적 정신이 성립함. 이 공동체적 정신이 절대지의 종교적 형태다.' },
+    '악과화해': { han: 'Böse und Versöhnung', kor: '악과 화해의 표상', body: '기독교가 표상 형식으로 담고 있는 악의 발생(원죄)과 화해(그리스도의 대속)의 이야기. 이 이야기의 사변적 진리는 정신이 자기의 타자성을 자기의 것으로 받아들이는 자기 매개다.' },
+    '표상의한계': { han: 'Grenze der Vorstellung', kor: '표상 형식의 한계', body: '계시 종교는 진리의 모든 내용을 담고 있으나 표상(이미지·이야기·의례)의 형식으로 담는다. 이 형식이 개념(Begriff)으로 지양되어야 절대지에 이른다.' },
+    '절대지로의이행': { han: 'Übergang zum absoluten Wissen', kor: '절대지로의 이행', body: '종교의 진리 내용은 이미 완전하나 그 형식이 표상이라는 한계가 있다. 이 표상을 개념으로 파악할 때 절대지가 성립한다. 이것이 정신현상학의 마지막 이행이다.' },
+    '절대지': { han: 'absolutes Wissen', kor: '절대지', body: '(DD) 절대지 장. 정신이 자기 자신을 개념의 형식으로 완전히 파악한 상태. 자기의 여정 전체를 자기의 것으로 회고하며, 이 여정 전체가 자기의 자기 매개임을 알게 된 정신.' },
+    '자기를아는정신': { han: 'der sich als Geist wissende Geist', kor: '자기 자신을 정신으로 아는 정신', body: '절대지의 정의. 정신이 자기의 여정 전체를 자기의 자기 규정으로 알게 되고, 그 앎 안에서 자기 자신과의 완전한 통일에 이른다.' },
+    '개념형식': { han: 'Form des Begriffs', kor: '개념 형식', body: '표상(종교)과 대비되는 앎의 형식. 개념은 자기 매개적이며 자기의 규정을 자기 안에서 낳는 사유의 자기 활동이다. 표상의 이미지가 개념의 자기 매개 운동으로 지양된다.' },
+    '타자성극복': { han: 'Aufhebung des Andersseins', kor: '타자성의 완전한 극복', body: '절대지에서는 정신이 어떤 타자도 자기 밖에 두지 않는다. 자연·역사·종교의 모든 타자가 정신의 자기 매개의 계기로 회수된다.' },
+    '시간의지양': { han: 'Aufhebung der Zeit', kor: '시간의 지양', body: '절대지는 자기의 여정을 시간의 연속으로 겪는 대신 개념의 자기 매개로 파악한다. 그러나 이는 시간 자체의 부정이 아니라 시간이 개념 안에 담기는 것이다.' },
+    '역사와개념': { han: 'Geschichte und Begriff', kor: '역사와 개념의 통일', body: '절대지에서 세계사(정신의 시간적 자기 실현)와 개념(정신의 논리적 자기 규정)이 하나의 원환 안에서 통일된다. 이 통일이 헤겔 성숙기 체계의 종결점이다.' },
+    '체계로의이행': { han: 'Übergang zum System', kor: '학문 체계로의 이행', body: '절대지가 성립하면 순수 사유의 자기 매개인 『논리학』이 시작된다. 정신현상학은 학문 체계에 이르는 사다리이며, 사다리의 마지막 발판이 곧 학문의 시작이다.' },
+    '논리학시작': { han: 'Anfang der Logik', kor: '『논리학』의 시작', body: '절대지의 종결점이 곧 존재론(Sein) — 즉 『논리학』의 첫 범주 — 의 시작이다. “순수한 존재”에서 다시 논리 전개가 시작된다.' },
+    '정신의골고다': { han: 'Schädelstätte des Geistes', kor: '정신의 골고다', body: '정신현상학 마지막 문단의 유명한 표현. “자기의식적 정신의 자기 실현의 골고다(Schädelstätte des absoluten Geistes)”(§808) — 정신이 자기의 죽음과 자기 매개의 자리로 이 여정 전체를 되돌아 본다.' },
+    '기억': { han: 'Erinnerung', kor: '기억 · 회고', body: '절대지의 근본 활동. 지금까지의 여정을 자기 안에 담고 그 여정 전체를 자기의 것으로 알아냄. “안으로-거둠(Er-innerung)”의 어원적 뜻을 살린 헤겔의 언어유희.' },
+    '황혼': { han: 'Eule der Minerva', kor: '미네르바의 부엉이 (뒷날 헤겔)', body: '뒷날 『법철학』(1820) 서문의 유명한 문장 — “미네르바의 부엉이는 황혼이 다가올 때 비로소 날개를 편다”. 철학이 자기 시대의 형태를 회고적으로만 파악할 수 있음의 함의. 정신현상학의 절대지 개념의 성숙한 재정식이다.' },
+    '변증법': { han: 'Dialektik', kor: '변증법', body: '헤겔의 사유 방법. 형식논리학의 배중률이 부정하는 자기 내부 모순을 오히려 사유의 원동력으로 삼음. 각 규정이 자기 안에서 자기의 반대로 이행하고, 그 이행을 통해 새로운 규정에 이르는 자기 매개 운동이다.' },
+    '지양': { han: 'Aufhebung', kor: '지양 — 부정·보존·고양', body: '헤겔 언어의 핵심어. 독일어 aufheben은 “폐기하다·보존하다·들어 올리다”의 세 뜻을 함께 갖는다. 한 형태가 지양된다는 것은 그것이 부정되면서 동시에 보존되고 더 높은 형태로 고양된다는 것을 뜻한다.' },
+    '정립반정립종합': { han: 'These · Antithese · Synthese', kor: '정립·반정립·종합 (통속적 도식)', body: '헤겔의 변증법을 대중적으로 요약하는 공식. 사실 이 도식은 피히테가 사용한 것을 뒷날 하인리히 몰리츠 샬리브레(Chalybäus, 1837)가 헤겔에 적용한 사후 요약이며, 헤겔 자신은 이 도식을 자주 쓰지 않았다. 그러나 실질적 내용은 헤겔 변증법의 자기 매개 구조와 상통한다.' },
+    '모순': { han: 'Widerspruch', kor: '모순', body: '헤겔에게 모순은 오류가 아니라 사태 자체의 본질에 속한다. “모든 것은 자기 안에 모순을 담고 있다”(『논리학』). 이 모순이 사태의 자기 운동의 원동력이다.' },
+    '부정성': { han: 'Negativität', kor: '부정성', body: '“모든 규정은 부정이다(Determinatio est negatio)”라는 스피노자의 명제를 헤겔은 자기 매개적 운동으로 재해석한다. 부정성이 자기 안에서 자기의 부정을 낳고 그 부정을 통해 자기로 돌아오는 자기 관계 구조가 정신의 본성이다.' },
+    '내재적발전': { han: 'immanente Entwicklung', kor: '내재적 발전', body: '헤겔 변증법의 근본 성격. 사태가 외적 원인이 아니라 자기 안의 내적 필연에 의해 자기를 전개함. 정신현상학의 각 형태는 이 내재적 발전에 의해 다음 형태로 이행한다.' },
+    '자기목적': { han: 'Selbstzweck', kor: '자기 목적', body: '유기체·정신의 근본 특성. 자기 자신 안에 자기의 목적을 담은 존재. 헤겔에게 정신은 자기 자신을 자기의 목적으로 삼고 자기를 실현하는 존재다.' },
+    '보편특수개별': { han: 'Allgemeines · Besonderes · Einzelnes', kor: '보편·특수·개별', body: '헤겔 개념론의 세 계기. 참된 보편은 특수를 매개하여 개별에 이르는 자기 매개적 보편이다. 형식적 유개념(공통 성질의 추상)과 대비된다.' },
+    '반성': { han: 'Reflexion', kor: '반성', body: '자기가 자기 자신에게 되돌아오는 사유 운동. 헤겔은 반성을 오성적 반성(외적 반성)과 사변적 반성(자기 매개적 반성)으로 구별한다.' },
+    '사변': { han: 'Spekulation', kor: '사변', body: '헤겔에게 사변은 신비적 직관이 아니라 개념의 자기 매개 운동을 개념의 형식으로 파악하는 사유 활동이다. 오성이 대립된 규정을 분리해 두는 반면 사변은 그 대립을 자기 안에서 매개된 통일로 파악한다.' },
+    '이성적인것': { han: 'Was vernünftig ist, ist wirklich', kor: '“이성적인 것은 현실적이다”', body: '『법철학』 서문의 유명한 명제(1820). 정신현상학의 결론(정신이 세계를 자기의 것으로 파악함)의 성숙한 정식. 흔히 헤겔의 보수주의로 오해되지만, 실은 이성이 세계 안에서 자기를 실현하는 필연에 관한 진술이다.' },
+    '보편사': { han: 'Universalgeschichte', kor: '세계사는 자유의 진보', body: '뒷날 『역사철학』(1830년대 강의)의 근본 명제. 정신현상학의 정신 장(그리스 → 로마 → 근대)이 이 명제의 예비다. 세계사는 정신이 자기의 자유를 점점 더 완전히 자각·실현해 가는 과정이다.' },
+    '칸트': { han: 'Immanuel Kant', kor: '칸트 (1724–1804)', body: '독일 관념론의 출발점. 헤겔의 실천이성 비판(정언명령의 형식성 지적)이 정신현상학 이성 장의 결정적 장면이다. 도덕성 장에서도 칸트적 요청 개념이 직접 검토된다.' },
+    '피히테': { han: 'J.G. Fichte', kor: '피히테 (1762–1814)', body: '“나는 나이다(Ich=Ich)”라는 자기 정립의 철학. 헤겔은 이 원리를 이성 장의 근본 규정으로 수용하되, 자기 매개 없이 남아 있는 공허함을 지적한다.' },
+    '셸링': { han: 'F.W.J. Schelling', kor: '셸링 (1775–1854)', body: '헤겔의 튀빙엔 신학교 동창이자 예나 시절의 협력자. 그러나 정신현상학 서문에서 헤겔이 “모든 소가 검게 보이는 밤”으로 조롱한 대상이 셸링의 무차별점 절대자이며, 이 발언 이후 두 사람은 결정적으로 결별한다.' },
+    '스피노자': { han: 'Baruch Spinoza', kor: '스피노자 (1632–1677)', body: '헤겔에게 근대 실체 형이상학의 정점. “실체는 자기 자신의 원인이다”라는 명제를 헤겔은 받아들이되 이 실체가 주체로 화하지 못한 점을 근본 결함으로 지적한다. “스피노자 없이는 철학이 없다”는 헤겔의 유명한 발언이 이 존경심을 담는다.' },
+    '루소': { han: 'J.-J. Rousseau', kor: '루소 (1712–1778)', body: '보편의지(volonté générale)의 사상가. 헤겔은 정신 장의 절대적 자유 국면에서 루소의 보편의지가 어떻게 프랑스 혁명의 공포로 뒤집히는지를 진단한다.' },
+    '소포클레스': { han: 'Sophokles, Antigone', kor: '소포클레스 『안티고네』', body: '기원전 441년 상연된 그리스 비극. 헤겔의 인륜성 장에서 결정적으로 인용되며, 안티고네와 크레온의 상호 파괴적 정당성이 인륜성의 자기 몰락의 원형이다. 헤겔은 이 비극을 “역사상 존재한 예술 작품 중 가장 완벽한 것”이라 부른다.' },
+    '디드로': { han: 'Denis Diderot, Le Neveu de Rameau', kor: '디드로 『라모의 조카』', body: '1762년경 집필된 대화체 소설. 괴테가 독일어로 번역하고 헤겔이 그 번역을 직접 인용한다. “찢어진 의식”의 원형 인물 — 자기 냉소·자기 위선·자기 도취를 동시에 담은 근대적 자기 소외의 완성형.' },
+    '프랑스혁명배경': { han: 'französische Revolution', kor: '프랑스 혁명의 충격', body: '헤겔은 튀빙엔 신학교 시절(셸링·횔덜린과 함께) 프랑스 혁명 소식을 열광적으로 받아들였다. 정신현상학의 절대적 자유·공포 국면은 이 청년기 열광과 그 후의 성찰이 결합된 결과다.' },
+    '예나': { han: 'Jena', kor: '예나 대학 시절', body: '1801–1806년. 헤겔이 셸링과 함께 학술 활동을 하고 정신현상학의 원고를 완성한 시기. 예나 전투(1806년 10월)와 함께 대학이 문을 닫자 헤겔은 밤베르크로 이주한다.' },
+    '바이마르공국': { han: 'Bamberg', kor: '바이마르 · 밤베르크', body: '정신현상학 간행 직후 헤겔은 밤베르크의 지역 신문 편집장으로 잠시 일하다가 뉘른베르크 김나지움 교장(1808–1816)으로 옮긴다. 이 시기에 『대논리학』이 집필된다.' },
+    '괴테': { han: 'Johann Wolfgang von Goethe', kor: '괴테와의 관계', body: '괴테는 헤겔의 사상적 동반자. 정신현상학이 인쇄되던 무렵 괴테의 『파우스트』 제1부(1808)가 완성되었고, 두 저작의 파우스트적 주제(향유·인식·구원)가 서로 공명한다.' },
+    '횔덜린': { han: 'Friedrich Hölderlin', kor: '횔덜린 · 튀빙엔 신학교', body: '헤겔·셸링과 함께 튀빙엔 신학교의 세 친구. 세 사람이 1793년 프랑스 혁명 이념을 기리는 “자유의 나무”를 심었다는 전설이 있다. 횔덜린의 그리스적 인륜 비전은 정신현상학의 참된 정신 장에 흔적을 남겼다.' },
+    '마르크스수용': { han: 'Marx-Rezeption', kor: '마르크스의 수용', body: '『1844년 경제학·철학 초고』에서 마르크스는 정신현상학의 지배·예속과 노동 개념을 결정적으로 재해석한다. “헤겔에게서 노동은 정신적이지만, 이는 정신적으로만 참된 것이 아니라 실제 물질적 노동에서도 참되다”는 마르크스의 통찰이 이 재해석의 핵심.' },
+    '코제브': { han: 'Alexandre Kojève', kor: '코제브 강의', body: '1933–39년 파리 고등연구원에서 열린 코제브의 정신현상학 강의. 자기의식 장(지배·예속·인정 투쟁)에 초점을 맞춘 이 강의가 사르트르·라캉·바타이유·메를로퐁티 등 20세기 프랑스 사상에 결정적 영향을 미친다.' },
+    '루카치': { han: 'Georg Lukács', kor: '루카치 『청년 헤겔』', body: '루카치의 저작(1948)이 헤겔의 초기 사상과 정신현상학의 경제적·정치적 맥락을 정리한 결정적 마르크스주의적 재해석. 이후 프랑크푸르트 학파의 헤겔 재수용에도 영향을 미친다.' },
+  };
+
+  function isMobile(){ return window.innerWidth <= 640; }
+
+  var svgModal = document.getElementById('svgModal');
+  var svgModalBody = document.getElementById('smBody');
+  var svgModalClose = document.getElementById('smClose');
+  var savedBodyOverflow = '';
+
+  function openSvgModal(sourceSvg){
+    var clone = sourceSvg.cloneNode(true);
+    clone.removeAttribute('style');
+    svgModalBody.innerHTML = '';
+    svgModalBody.appendChild(clone);
+    svgModal.classList.add('on');
+    svgModal.setAttribute('aria-hidden', 'false');
+    savedBodyOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    hideTip();
+    try { history.pushState({ svgModalOpen: true }, ''); } catch(_){}
+  }
+  function closeSvgModal(fromPopstate){
+    if(!svgModal.classList.contains('on')) return;
+    svgModal.classList.remove('on');
+    svgModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = savedBodyOverflow || '';
+    svgModalBody.innerHTML = '';
+    if(fromPopstate !== true){
+      try{ if(history.state && history.state.svgModalOpen) history.back(); } catch(_){}
+    }
+  }
+  window.addEventListener('popstate', function(){
+    if(svgModal.classList.contains('on')) closeSvgModal(true);
+  });
+  svgModalClose.addEventListener('click', function(){ closeSvgModal(false); });
+  svgModal.addEventListener('click', function(e){
+    if(e.target === svgModal) closeSvgModal(false);
+  });
+
+  document.querySelectorAll('.dp-svg').forEach(function(svg){
+    if(svg.parentNode && svg.parentNode.classList &&
+       svg.parentNode.classList.contains('dp-svg-wrap')) return;
+    var outer = document.createElement('div');
+    outer.className = 'dp-svg-outer';
+    var wrap = document.createElement('div');
+    wrap.className = 'dp-svg-wrap';
+    svg.parentNode.insertBefore(outer, svg);
+    outer.appendChild(wrap);
+    wrap.appendChild(svg);
+    outer.addEventListener('click', function(){
+      if(!isMobile()) return;
+      openSvgModal(svg);
+    });
+  });
+
+  var terms = document.querySelectorAll('.term');
+  terms.forEach(function(t){
+    var b = t.querySelector('b');
+    if(!b) return;
+    var key = b.textContent.trim();
+    if(G[key]){
+      t.classList.add('has-def');
+      t.setAttribute('tabindex','0');
+      t.dataset.k = key;
+    }
+  });
+
+  var tip = document.getElementById('defTip');
+  var elHan = document.getElementById('defHan');
+  var elKor = document.getElementById('defKor');
+  var elBody = document.getElementById('defBody');
+  var closeBtn = document.getElementById('defClose');
+  var current = null;
+
+  function showTip(target, key){
+    var d = G[key]; if(!d) return;
+    elHan.textContent = d.han || key;
+    elKor.textContent = d.kor || '';
+    elBody.innerHTML = d.body || '';
+    tip.classList.add('on');
+    if(current) current.classList.remove('active');
+    current = target;
+    current.classList.add('active');
+    if(tip.scrollTop) tip.scrollTop = 0;
+    if(isMobile()){
+      tip.style.left = '';
+      tip.style.top = '';
+      return;
+    }
+    var r = target.getBoundingClientRect();
+    var tw = tip.offsetWidth, th = tip.offsetHeight;
+    var vw = window.innerWidth, vh = window.innerHeight;
+    var left = r.left + r.width/2 - tw/2;
+    var top = r.bottom + 8;
+    if(left < 8) left = 8;
+    if(left + tw > vw - 8) left = vw - 8 - tw;
+    if(top + th > vh - 8) top = r.top - 8 - th;
+    if(top < 8) top = 8;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+  function hideTip(){
+    tip.classList.remove('on');
+    if(current){ current.classList.remove('active'); current = null; }
+  }
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('.term.has-def');
+    if(t){
+      e.preventDefault();
+      if(current === t){ hideTip(); return; }
+      showTip(t, t.dataset.k);
+      return;
+    }
+    if(!e.target.closest('#defTip')) hideTip();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      if(svgModal.classList.contains('on')) closeSvgModal(false);
+      else hideTip();
+    }
+    if(e.key === 'Enter' || e.key === ' '){
+      var t = document.activeElement;
+      if(t && t.classList.contains('has-def')){
+        e.preventDefault();
+        if(current === t) hideTip();
+        else showTip(t, t.dataset.k);
+      }
+    }
+  });
+  closeBtn.addEventListener('click', hideTip);
+  window.addEventListener('resize', function(){
+    if(!tip.classList.contains('on')) return;
+    if(isMobile()){ tip.style.left=''; tip.style.top=''; }
+    else if(current){ showTip(current, current.dataset.k); }
+  });
+  window.addEventListener('scroll', function(e){
+    if(isMobile()) return;
+    hideTip();
+  }, true);
+})();
+</script>
+</body></html>
